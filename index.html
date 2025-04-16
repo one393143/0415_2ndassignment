@@ -184,23 +184,240 @@
         .network-indicators-link:hover {
             background-color: #bbdefb;
         }
+		.info-section {
+		    background-color: #f8f9fa;
+		    border-radius: 5px;
+		    margin-bottom: 20px;
+		    border: 1px solid #dee2e6;
+		}
+		.info-header {
+		    cursor: pointer;
+		    padding: 15px;
+		    background-color: #e9ecef;
+		    border-radius: 5px 5px 0 0;
+		    display: flex;
+		    align-items: center;
+		}
+		.info-content {
+		    padding: 20px;
+		}
+		.info-content h5 {
+		    margin-top: 20px;
+		    margin-bottom: 10px;
+		    color: #0d6efd;
+		}
+		.info-content h5:first-child {
+		    margin-top: 0;
+		}
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>NBA Team Network Analysis</h1>
-            <p>Interactive visualization of team passing networks and community detection results.</p>
+            <p>NBA passing network nnalysis indicators / Visualization of team passing networks / Community detection</p>
         </div>
+
+		        <!-- 說明區塊 -->
+		<div class="container mb-4">
+		    <div class="info-section">
+		        <div class="info-header" onclick="toggleSection('info-section')">
+		            <i class="bi bi-chevron-right chevron-icon"></i>
+		            <h4 class="d-inline">About This Project</h4>
+		        </div>
+		        <div id="info-section" class="info-content hidden">
+		            <div class="row">
+		                <div class="col-md-12">
+							<h5>Creator</h5>
+							<p>C.T. Chin</p>
+							<p><small>This project was developed with AI assistance using Monica, with Claude selected as the primary language model.</small></p>
+
+		                    
+		                    <h5>Data Source</h5>
+		                    <p>NBA API - <a href="https://github.com/swar/nba_api" target="_blank">nba_api</a></p>
+		                    
+		                    <h5>Data Processing</h5>
+		                    <p>Data processed using R programming language</p>
+		                    
+		                    <h5>Data Description</h5>
+		                    <p>This project analyzes NBA passing networks based on the NBA's tracking data from the Passes Dashboard. The data represents the total number of passes from one player to another during a season. Each edge in the network represents the cumulative number of passes between two players throughout a season.</p>
+		                    
+		                    <h5>How to Use This Tool</h5>
+		                    <p>This tool is structured as follows:</p>
+		                    <ul>
+		                        <li><strong>Data Sets:</strong> Choose between "All Passes" (complete passing data) or "Filtered Passes" (only players with 40+ games and edges with 50+ passes)</li>
+		                        <li><strong>Seasons:</strong> Select from available NBA seasons (2019-20 to 2023-24)</li>
+		                        <li><strong>Teams:</strong> Browse or search for specific NBA teams</li>
+		                        <li><strong>Visualizations:</strong> For each team, access network plots, community detection, and hierarchy analysis</li>
+		                        <li><strong>Network Metrics:</strong> View detailed network indicators for each team or entire seasons</li>
+		                    </ul>
+		                    <p>Use the filters at the top of each dataset section to search for specific teams, seasons, or plot types. The "Expand All" and "Collapse All" buttons help navigate through the content.</p>
+		                    
+		                    <h5>Network Indicators Explained</h5>
+		                    <table class="table table-striped table-bordered">
+		                        <thead>
+		                            <tr>
+		                                <th>Indicator</th>
+		                                <th>Description</th>
+		                                <th>Interpretation in Passing Networks</th>
+		                            </tr>
+		                        </thead>
+		                        <tbody>
+		                            <tr>
+		                                <td>nodes</td>
+		                                <td>Number of vertices in the network</td>
+		                                <td>Total number of players in the team's rotation</td>
+		                            </tr>
+		                            <tr>
+		                                <td>edges</td>
+		                                <td>Number of connections in the network</td>
+		                                <td>Total number of unique passing connections between players</td>
+		                            </tr>
+		                            <tr>
+		                                <td>density</td>
+		                                <td>Proportion of potential connections that are actual connections</td>
+		                                <td>Higher values indicate more interconnected passing patterns; lower values suggest more specialized passing roles</td>
+		                            </tr>
+		                            <tr>
+		                                <td>vertex_connectivity</td>
+		                                <td>Minimum number of vertices needed to remove to disconnect the network</td>
+		                                <td>Higher values indicate more robust passing networks that can withstand player absences</td>
+		                            </tr>
+		                            <tr>
+		                                <td>edge_connectivity</td>
+		                                <td>Minimum number of edges needed to remove to disconnect the network</td>
+		                                <td>Higher values indicate more redundant passing pathways</td>
+		                            </tr>
+		                            <tr>
+		                                <td>num_component</td>
+		                                <td>Number of connected components</td>
+		                                <td>Ideally 1; more components suggest disconnected player groups</td>
+		                            </tr>
+		                            <tr>
+		                                <td>max_component_size</td>
+		                                <td>Size of the largest connected component</td>
+		                                <td>Closer to total nodes indicates more integrated team play</td>
+		                            </tr>
+		                            <tr>
+		                                <td>biconnected_components</td>
+		                                <td>Number of biconnected components</td>
+		                                <td>Fewer components suggest more robust passing structures</td>
+		                            </tr>
+		                            <tr>
+		                                <td>cohesive_blocks</td>
+		                                <td>Number of cohesive blocks in the network</td>
+		                                <td>More blocks indicate more hierarchical team structure</td>
+		                            </tr>
+		                            <tr>
+		                                <td>max_cohesion</td>
+		                                <td>Maximum cohesion value in the network</td>
+		                                <td>Higher values indicate stronger core passing groups</td>
+		                            </tr>
+		                            <tr>
+		                                <td>cent_indegree</td>
+		                                <td>Centralization of incoming connections</td>
+		                                <td>Higher values indicate team passing is focused toward specific players</td>
+		                            </tr>
+		                            <tr>
+		                                <td>cent_outdegree</td>
+		                                <td>Centralization of outgoing connections</td>
+		                                <td>Higher values indicate passing originates from specific players</td>
+		                            </tr>
+		                            <tr>
+		                                <td>cent_inclo</td>
+		                                <td>Centralization of incoming closeness</td>
+		                                <td>Higher values indicate some players are primary pass receivers</td>
+		                            </tr>
+		                            <tr>
+		                                <td>cent_outclo</td>
+		                                <td>Centralization of outgoing closeness</td>
+		                                <td>Higher values indicate some players are primary pass distributors</td>
+		                            </tr>
+		                            <tr>
+		                                <td>cent_betw</td>
+		                                <td>Betweenness centralization</td>
+		                                <td>Higher values indicate presence of key passing intermediaries</td>
+		                            </tr>
+		                            <tr>
+		                                <td>centr_eigen</td>
+		                                <td>Eigenvector centralization</td>
+		                                <td>Higher values indicate hierarchical influence in the passing network</td>
+		                            </tr>
+		                            <tr>
+		                                <td>walktrap_communities</td>
+		                                <td>Number of communities detected by Walktrap algorithm</td>
+		                                <td>More communities suggest distinct passing groups within team</td>
+		                            </tr>
+		                            <tr>
+		                                <td>walktrap_modularity</td>
+		                                <td>Modularity score for Walktrap communities</td>
+		                                <td>Higher values indicate stronger community structure</td>
+		                            </tr>
+		                            <tr>
+		                                <td>edge_betweenness_communities</td>
+		                                <td>Number of communities detected by Edge Betweenness algorithm</td>
+		                                <td>More communities suggest distinct passing groups based on critical passing paths</td>
+		                            </tr>
+		                            <tr>
+		                                <td>edge_betweenness_modularity</td>
+		                                <td>Modularity score for Edge Betweenness communities</td>
+		                                <td>Higher values indicate stronger community structure</td>
+		                            </tr>
+		                            <tr>
+		                                <td>louvain_communities</td>
+		                                <td>Number of communities detected by Louvain algorithm</td>
+		                                <td>More communities suggest distinct passing groups optimized for modularity</td>
+		                            </tr>
+		                            <tr>
+		                                <td>louvain_modularity</td>
+		                                <td>Modularity score for Louvain communities</td>
+		                                <td>Higher values indicate stronger community structure</td>
+		                            </tr>
+		                            <tr>
+		                                <td>best_modularity</td>
+		                                <td>Highest modularity score among all community detection methods</td>
+		                                <td>Higher values indicate stronger overall community structure</td>
+		                            </tr>
+		                            <tr>
+		                                <td>tau_rankedcluster</td>
+		                                <td>Ranked clustering coefficient</td>
+		                                <td>Measure of hierarchical structure in passing patterns</td>
+		                            </tr>
+		                            <tr>
+		                                <td>tau_cluster</td>
+		                                <td>Clustering coefficient tau</td>
+		                                <td>Measure of local clustering in passing patterns</td>
+		                            </tr>
+		                            <tr>
+		                                <td>tau_balance</td>
+		                                <td>Balance coefficient tau</td>
+		                                <td>Measure of balance in passing structure</td>
+		                            </tr>
+		                        </tbody>
+		                    </table>
+		                    
+		                    <h5>Visualization Types</h5>
+		                    <p><strong>Network Plots:</strong> In these visualizations, circles represent players and lines represent passes between players. Larger circles indicate players with more seasons of experience, while thicker lines represent higher passing volume during the season.</p>
+		                    
+		                    <p><strong>Community Detection:</strong> These plots show different algorithms' attempts to identify natural groupings of players based on passing patterns. Different colors represent different detected communities. The three methods (Walktrap, Edge Betweenness, and Louvain) use different approaches to identify these communities.</p>
+		                    
+		                    <p><strong>Hierarchy Analysis: Cohesive Blocks:</strong> These visualizations represent the hierarchical structure of the team's passing network. They identify nested groups of players with increasing levels of interconnectedness. The blocks at higher levels represent more cohesive subgroups within the team, showing which players form the most tightly connected passing units.</p>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
 
         <!-- 資料集選擇標籤 -->
         <div class="dataset-tabs">
             <div class="d-flex">
                 <div id="tab-no-filter" class="dataset-tab active" onclick="switchDataset('no-filter')">
-                    無篩選資料 (G_0_P_0)
+                    All Passes
                 </div>
                 <div id="tab-filtered" class="dataset-tab" onclick="switchDataset('filtered')">
-                    已篩選資料 (G_40_P_50)
+                    Filtered Passes (Players with 40+ Games，Edges of 50+ Passes)
                 </div>
             </div>
         </div>
@@ -208,8 +425,8 @@
         <!-- 無篩選資料內容 -->
         <div id="content-no-filter" class="dataset-content">
             <div class="all-seasons-link mb-3">
-                <a href="#" class="all-seasons-csv" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/all_seasons_network_metrics.csv', '所有賽季網絡指標 (無篩選)')">
-                    <i class="bi bi-file-earmark-spreadsheet"></i> View All Seasons Network Metrics (無篩選)
+                <a href="#" class="all-seasons-csv" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/all_seasons_network_metrics.csv', 'All Seasons Network Metrics (All Passes)')">
+                    <i class="bi bi-file-earmark-spreadsheet"></i> View All Seasons Network Metrics (All Passes)
                 </a>
             </div>
             
@@ -254,8 +471,8 @@
         <!-- 已篩選資料內容 -->
         <div id="content-filtered" class="dataset-content hidden">
             <div class="all-seasons-link mb-3">
-                <a href="#" class="all-seasons-csv" onclick="showCSVData('team_indicators_2020-23_G_40_P_50/all_seasons_network_metrics.csv', '所有賽季網絡指標 (已篩選)')">
-                    <i class="bi bi-file-earmark-spreadsheet"></i> View All Seasons Network Metrics (已篩選)
+                <a href="#" class="all-seasons-csv" onclick="showCSVData('team_indicators_2020-23_G_40_P_50/all_seasons_network_metrics.csv', 'All Seasons Network Metrics (Filtered Passes)')">
+                    <i class="bi bi-file-earmark-spreadsheet"></i> View All Seasons Network Metrics (Filtered Passes)
                 </a>
             </div>
             
@@ -646,7 +863,7 @@
                     </div>
                     
                     <!-- 新增網絡指標連結 -->
-                    <a href="#" class="network-indicators-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} 賽季網絡指標 ${datasetId === 'filtered' ? '(已篩選)' : '(無篩選)'}', '${team.code}')">
+                    <a href="#" class="network-indicators-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} Regular Season Passing Network Indicators ${datasetId === 'filtered' ? '(Filtered passes)' : '(all passes)'}', '${team.code}')">
                         <i class="bi bi-bar-chart-line"></i> Network Indicators
                     </a>
                     
@@ -667,9 +884,9 @@
 		    <div class="season-section" data-season="${season}">
 		        <div class="season-header" onclick="toggleSection('season-${season}-${datasetId}')">
 		            <div>
-		                <i class="bi bi-chevron-right chevron-icon"></i> ${season} Season
+		                <i class="bi bi-chevron-right chevron-icon"></i> ${season} Regular Season
 		            </div>
-		            <a href="#" class="csv-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} 賽季網絡指標 ${datasetId === 'filtered' ? '(已篩選)' : '(無篩選)'}')">
+		            <a href="#" class="csv-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} Regular Season Passing Network Indicators ${datasetId === 'filtered' ? '(Filtered passes)' : '(all passes)'}')">
 		                <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
 		            </a>
 		        </div>
