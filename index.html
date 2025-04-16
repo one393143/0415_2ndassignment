@@ -166,6 +166,10 @@
             border-radius: 5px;
             margin-bottom: 15px;
         }
+        .team-data-table {
+            width: 100%;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
@@ -229,80 +233,7 @@
             </div>
 
             <div id="seasons-no-filter">
-                <!-- 2023-24 Season -->
-                <div class="season-section" data-season="2023-24">
-                    <div class="season-header" onclick="toggleSection('season-2023-24-no-filter')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2023-24 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/2023-24/network_metrics.csv', '2023-24 賽季網絡指標 (無篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2023-24-no-filter" class="season-content">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
-                
-                <!-- 2022-23 Season -->
-                <div class="season-section" data-season="2022-23">
-                    <div class="season-header" onclick="toggleSection('season-2022-23-no-filter')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2022-23 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/2022-23/network_metrics.csv', '2022-23 賽季網絡指標 (無篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2022-23-no-filter" class="season-content hidden">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
-                
-                <!-- 2021-22 Season -->
-                <div class="season-section" data-season="2021-22">
-                    <div class="season-header" onclick="toggleSection('season-2021-22-no-filter')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2021-22 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/2021-22/network_metrics.csv', '2021-22 賽季網絡指標 (無篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2021-22-no-filter" class="season-content hidden">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
-                
-                <!-- 2020-21 Season -->
-                <div class="season-section" data-season="2020-21">
-                    <div class="season-header" onclick="toggleSection('season-2020-21-no-filter')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2020-21 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/2020-21/network_metrics.csv', '2020-21 賽季網絡指標 (無篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2020-21-no-filter" class="season-content hidden">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
-                
-                <!-- 2019-20 Season -->
-                <div class="season-section" data-season="2019-20">
-                    <div class="season-header" onclick="toggleSection('season-2019-20-no-filter')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2019-20 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/2019-20/network_metrics.csv', '2019-20 賽季網絡指標 (無篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2019-20-no-filter" class="season-content hidden">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
+                <!-- 動態生成賽季內容 -->
             </div>
         </div>
 
@@ -322,9 +253,11 @@
                     <div class="col-md-3">
                         <select id="seasonFilter-filtered" class="form-select">
                             <option value="all">All Seasons</option>
+                            <option value="2023-24">2023-24</option>
                             <option value="2022-23">2022-23</option>
                             <option value="2021-22">2021-22</option>
                             <option value="2020-21">2020-21</option>
+                            <option value="2019-20">2019-20</option>
                         </select>
                     </div>
                     <div class="col-md-3">
@@ -346,50 +279,7 @@
             </div>
 
             <div id="seasons-filtered">
-                <!-- 2022-23 Season -->
-                <div class="season-section" data-season="2022-23">
-                    <div class="season-header" onclick="toggleSection('season-2022-23-filtered')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2022-23 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_40_P_50/2022-23/network_metrics.csv', '2022-23 賽季網絡指標 (已篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2022-23-filtered" class="season-content">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
-                
-                <!-- 2021-22 Season -->
-                <div class="season-section" data-season="2021-22">
-                    <div class="season-header" onclick="toggleSection('season-2021-22-filtered')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2021-22 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_40_P_50/2021-22/network_metrics.csv', '2021-22 賽季網絡指標 (已篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2021-22-filtered" class="season-content hidden">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
-                
-                <!-- 2020-21 Season -->
-                <div class="season-section" data-season="2020-21">
-                    <div class="season-header" onclick="toggleSection('season-2020-21-filtered')">
-                        <div>
-                            <i class="bi bi-chevron-down chevron-icon"></i> 2020-21 Season
-                        </div>
-                        <a href="#" class="csv-link" onclick="showCSVData('team_indicators_2020-23_G_40_P_50/2020-21/network_metrics.csv', '2020-21 賽季網絡指標 (已篩選)')">
-                            <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
-                        </a>
-                    </div>
-                    <div id="season-2020-21-filtered" class="season-content hidden">
-                        <!-- 動態生成所有球隊 -->
-                    </div>
-                </div>
+                <!-- 動態生成賽季內容 -->
             </div>
         </div>
     </div>
@@ -411,8 +301,7 @@
                     </div>
                     <div id="csvErrorMessage" class="error-message hidden"></div>
                     <div id="mockDataNotice" class="mock-data-notice hidden">
-                        <i class="bi bi-exclamation-triangle-fill me-2"></i>
-                        Unable to load the actual CSV file. Displaying mock data instead.
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i> Unable to load the actual CSV file. Displaying mock data instead.
                     </div>
                     <button id="downloadCSV" class="btn btn-success download-btn hidden">
                         <i class="bi bi-download"></i> Download CSV
@@ -467,7 +356,7 @@
 
         // 賽季列表
         const seasonsNoFilter = ["2023-24", "2022-23", "2021-22", "2020-21", "2019-20"];
-        const seasonsFiltered = ["2022-23", "2021-22", "2020-21"];
+        const seasonsFiltered = ["2023-24", "2022-23", "2021-22", "2020-21", "2019-20"];
 
         // 資料集路徑
         const datasetPaths = {
@@ -479,21 +368,13 @@
         let currentCSVData = null;
         let currentCSVFilename = '';
 
-        // 模擬數據 - 用於當無法載入真實數據時
-        const mockNetworkMetrics = {
-            "ATL": { density: 0.42, transitivity: 0.38, reciprocity: 0.65, avg_degree: 4.2, avg_weighted_degree: 12.5, diameter: 3, avg_path_length: 1.8 },
-            "BOS": { density: 0.45, transitivity: 0.41, reciprocity: 0.68, avg_degree: 4.5, avg_weighted_degree: 13.2, diameter: 3, avg_path_length: 1.7 },
-            "BKN": { density: 0.39, transitivity: 0.35, reciprocity: 0.62, avg_degree: 3.9, avg_weighted_degree: 11.8, diameter: 4, avg_path_length: 1.9 },
-            // 其他球隊的模擬數據...
-        };
-
         // 切換資料集
         function switchDataset(datasetId) {
             // 更新標籤樣式
             document.getElementById('tab-no-filter').classList.remove('active');
             document.getElementById('tab-filtered').classList.remove('active');
             document.getElementById(`tab-${datasetId}`).classList.add('active');
-            
+
             // 顯示/隱藏內容
             document.getElementById('content-no-filter').classList.add('hidden');
             document.getElementById('content-filtered').classList.add('hidden');
@@ -503,23 +384,23 @@
         // 顯示 CSV 數據
         function showCSVData(csvPath, title) {
             currentCSVFilename = csvPath.split('/').pop();
-            
+
             // 設置模態框標題
             document.getElementById('csvModalLabel').textContent = title;
-            
+
             // 清空表格
             const table = document.getElementById('csvTable');
             table.innerHTML = '';
-            
+
             // 顯示載入中訊息
             document.getElementById('csvLoadingSpinner').classList.remove('hidden');
             document.getElementById('csvErrorMessage').classList.add('hidden');
             document.getElementById('mockDataNotice').classList.add('hidden');
             document.getElementById('downloadCSV').classList.add('hidden');
-            
+
             const modal = new bootstrap.Modal(document.getElementById('csvModal'));
             modal.show();
-            
+
             // 嘗試讀取 CSV 檔案
             try {
                 Papa.parse(csvPath, {
@@ -529,7 +410,6 @@
                     complete: function(results) {
                         document.getElementById('csvLoadingSpinner').classList.add('hidden');
                         document.getElementById('downloadCSV').classList.remove('hidden');
-                        
                         currentCSVData = results.data;
                         displayCSVTable(results.data);
                     },
@@ -575,44 +455,38 @@
         // 顯示 CSV 表格
         function displayCSVTable(data) {
             const table = document.getElementById('csvTable');
-            
+
             // 創建表格頭
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
-            
+
             if (data.length > 0) {
                 Object.keys(data[0]).forEach(key => {
                     const th = document.createElement('th');
                     th.textContent = key;
                     headerRow.appendChild(th);
                 });
-                
                 thead.appendChild(headerRow);
                 table.appendChild(thead);
-                
+
                 // 創建表格體
                 const tbody = document.createElement('tbody');
-                
                 data.forEach(row => {
                     const tr = document.createElement('tr');
-                    
                     Object.values(row).forEach(value => {
                         const td = document.createElement('td');
                         td.textContent = value;
                         tr.appendChild(td);
                     });
-                    
                     tbody.appendChild(tr);
                 });
-                
                 table.appendChild(tbody);
-                
+
                 // 初始化 DataTables
                 $(document).ready(function() {
                     if ($.fn.DataTable.isDataTable('#csvTable')) {
                         $('#csvTable').DataTable().destroy();
                     }
-                    
                     $('#csvTable').DataTable({
                         paging: true,
                         searching: true,
@@ -634,7 +508,7 @@
             const mockData = [];
             const isSeasonData = csvPath.includes('/20');
             const isAllSeasons = csvPath.includes('all_seasons');
-            
+
             // 根據路徑判斷要生成什麼類型的模擬數據
             if (isAllSeasons) {
                 // 所有賽季的數據
@@ -688,7 +562,7 @@
                     });
                 });
             }
-            
+
             return mockData;
         }
 
@@ -698,12 +572,10 @@
                 const csv = Papa.unparse(currentCSVData);
                 const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                 const link = document.createElement('a');
-                
                 const url = URL.createObjectURL(blob);
                 link.setAttribute('href', url);
                 link.setAttribute('download', currentCSVFilename);
                 link.style.visibility = 'hidden';
-                
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -714,76 +586,99 @@
         function generateTeamHTML(team, season, datasetId) {
             const basePath = datasetPaths[datasetId];
             return `
-                <div class="team-section" data-team="${team.code}">
-                    <div class="team-header" onclick="toggleSection('team-${season}-${team.code}-${datasetId}')">
-                        <i class="bi bi-chevron-right chevron-icon"></i>
-                        <img src="https://cdn.nba.com/logos/nba/${team.logoId}/global/L/logo.svg" alt="${team.code}" class="team-logo">
-                        ${team.name}
+            <div class="team-section" data-team="${team.code}">
+                <div class="team-header" onclick="toggleSection('team-${season}-${team.code}-${datasetId}')">
+                    <i class="bi bi-chevron-right chevron-icon"></i>
+                    <img src="https://cdn.nba.com/logos/nba/${team.logoId}/global/L/logo.svg" alt="${team.code}" class="team-logo">
+                    ${team.name}
+                </div>
+                <div id="team-${season}-${team.code}-${datasetId}" class="team-content hidden">
+                    <div class="plot-category network-plot">Network Plots:</div>
+                    <div class="plot-links">
+                        <a href="${basePath}/${season}/plots/network_plots/${team.code}_pass_network.png" target="_blank">Pass Network</a>
                     </div>
-                    <div id="team-${season}-${team.code}-${datasetId}" class="team-content hidden">
-                        <div class="plot-category network-plot">Network Plots:</div>
-                        <div class="plot-links">
-                            <a href="${basePath}/${season}/plots/network_plots/${team.code}_pass_network.png" target="_blank">Pass Network</a>
+                    <div id="team-data-${season}-${team.code}-${datasetId}" class="team-stats">
+                        <div class="text-center">
+                            <div class="spinner-border spinner-border-sm text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <span class="ms-2">Loading team data...</span>
                         </div>
-                        
-                        <div class="team-stats network-stats">
-                            <table class="stats-table">
-                                <tr><td>Loading network metrics...</td><td></td></tr>
-                            </table>
-                        </div>
-                        
-                        <div class="plot-category community-plot">Community Detection:</div>
-                        <div class="plot-links">
-                            <a href="${basePath}/${season}/plots/community_plots/${team.code}_walktrap.png" target="_blank">Walktrap</a> | 
-                            <a href="${basePath}/${season}/plots/community_plots/${team.code}_edge_betweenness.png" target="_blank">Edge Betweenness</a> | 
-                            <a href="${basePath}/${season}/plots/community_plots/${team.code}_louvain.png" target="_blank">Louvain</a>
-                        </div>
-                        
-                        <div class="team-stats community-stats">
-                            <table class="stats-table">
-                                <tr><td>Loading community metrics...</td><td></td></tr>
-                            </table>
-                        </div>
-                        
-                        <div class="plot-category hierarchy-plot">Hierarchy Analysis:</div>
-                        <div class="plot-links">
-                            <a href="${basePath}/${season}/plots/hierarchy_plots/${team.code}_hierarchy.png" target="_blank">Cohesive Blocks</a>
-                        </div>
-                        
-                        <div class="team-stats hierarchy-stats">
-                            <table class="stats-table">
-                                <tr><td>Loading hierarchy metrics...</td><td></td></tr>
-                            </table>
-                        </div>
+                    </div>
+                    <div class="plot-category community-plot">Community Detection:</div>
+                    <div class="plot-links">
+                        <a href="${basePath}/${season}/plots/community_plots/${team.code}_walktrap.png" target="_blank">Walktrap</a> |
+                        <a href="${basePath}/${season}/plots/community_plots/${team.code}_edge_betweenness.png" 
+                        target="_blank">Edge Betweenness</a> |
+                        <a href="${basePath}/${season}/plots/community_plots/${team.code}_louvain.png" target="_blank">Louvain</a>
+                    </div>
+                    <div class="plot-category hierarchy-plot">Hierarchy Analysis:</div>
+                    <div class="plot-links">
+                        <a href="${basePath}/${season}/plots/hierarchy_plots/${team.code}_hierarchy.png" target="_blank">Cohesive Blocks</a>
                     </div>
                 </div>
-            `;
+            </div>`;
+        }
+
+        // 生成賽季HTML
+        function generateSeasonHTML(season, datasetId) {
+            const basePath = datasetPaths[datasetId];
+            const isHidden = season !== '2023-24' && season !== '2022-23';
+            const hiddenClass = isHidden ? 'hidden' : '';
+            
+            return `
+            <div class="season-section" data-season="${season}">
+                <div class="season-header" onclick="toggleSection('season-${season}-${datasetId}')">
+                    <div>
+                        <i class="bi bi-chevron-${isHidden ? 'right' : 'down'} chevron-icon"></i> ${season} Season
+                    </div>
+                    <a href="#" class="csv-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} 賽季網絡指標 ${datasetId === 'filtered' ? '(已篩選)' : '(無篩選)'}')">
+                        <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
+                    </a>
+                </div>
+                <div id="season-${season}-${datasetId}" class="season-content ${hiddenClass}">
+                    <!-- 動態生成所有球隊 -->
+                </div>
+            </div>`;
         }
 
         // 初始化頁面
         function initializePage() {
             // 初始化無篩選資料
+            const seasonsNoFilterContainer = document.getElementById('seasons-no-filter');
+            let noFilterHTML = '';
             seasonsNoFilter.forEach(season => {
-                let seasonContent = document.getElementById(`season-${season}-no-filter`);
+                noFilterHTML += generateSeasonHTML(season, 'no-filter');
+            });
+            seasonsNoFilterContainer.innerHTML = noFilterHTML;
+            
+            // 初始化已篩選資料
+            const seasonsFilteredContainer = document.getElementById('seasons-filtered');
+            let filteredHTML = '';
+            seasonsFiltered.forEach(season => {
+                filteredHTML += generateSeasonHTML(season, 'filtered');
+            });
+            seasonsFilteredContainer.innerHTML = filteredHTML;
+            
+            // 為每個賽季添加球隊
+            seasonsNoFilter.forEach(season => {
+                const seasonContent = document.getElementById(`season-${season}-no-filter`);
                 let teamsHTML = '';
-                
                 nbaTeams.forEach(team => {
                     teamsHTML += generateTeamHTML(team, season, 'no-filter');
                 });
-                
                 seasonContent.innerHTML = teamsHTML;
             });
             
-            // 初始化已篩選資料
             seasonsFiltered.forEach(season => {
-                let seasonContent = document.getElementById(`season-${season}-filtered`);
-                let teamsHTML = '';
-                
-                nbaTeams.forEach(team => {
-                    teamsHTML += generateTeamHTML(team, season, 'filtered');
-                });
-                
-                seasonContent.innerHTML = teamsHTML;
+                const seasonContent = document.getElementById(`season-${season}-filtered`);
+                if (seasonContent) { // 確保元素存在
+                    let teamsHTML = '';
+                    nbaTeams.forEach(team => {
+                        teamsHTML += generateTeamHTML(team, season, 'filtered');
+                    });
+                    seasonContent.innerHTML = teamsHTML;
+                }
             });
         }
 
@@ -792,6 +687,7 @@
             const element = document.getElementById(id);
             if (element.classList.contains('hidden')) {
                 element.classList.remove('hidden');
+                
                 // 更改箭頭方向
                 const icon = element.previousElementSibling.querySelector('i.chevron-icon');
                 icon.classList.remove('bi-chevron-right');
@@ -807,6 +703,7 @@
                 }
             } else {
                 element.classList.add('hidden');
+                
                 // 更改箭頭方向
                 const icon = element.previousElementSibling.querySelector('i.chevron-icon');
                 icon.classList.remove('bi-chevron-down');
@@ -818,16 +715,7 @@
         function loadTeamData(teamCode, season, datasetId) {
             const basePath = datasetPaths[datasetId];
             const csvPath = `${basePath}/${season}/network_metrics.csv`;
-            
-            // 更新狀態為載入中
-            const teamElement = document.getElementById(`team-${season}-${teamCode}-${datasetId}`);
-            const networkStats = teamElement.querySelector('.network-stats table');
-            const communityStats = teamElement.querySelector('.community-stats table');
-            const hierarchyStats = teamElement.querySelector('.hierarchy-stats table');
-            
-            networkStats.innerHTML = '<tr><td>Loading network metrics...</td><td></td></tr>';
-            communityStats.innerHTML = '<tr><td>Loading community metrics...</td><td></td></tr>';
-            hierarchyStats.innerHTML = '<tr><td>Loading hierarchy metrics...</td><td></td></tr>';
+            const teamDataContainer = document.getElementById(`team-data-${season}-${teamCode}-${datasetId}`);
             
             // 嘗試讀取 CSV 檔案
             try {
@@ -839,157 +727,79 @@
                         // 尋找該球隊的數據
                         const teamData = results.data.find(row => row.team === teamCode);
                         if (teamData) {
-                            updateTeamStats(teamCode, season, datasetId, teamData);
+                            displayTeamData(teamDataContainer, teamData);
                         } else {
                             console.error(`No data found for team ${teamCode} in season ${season}`);
                             // 使用模擬數據
-                            const mockTeamData = {
-                                team: teamCode,
-                                density: (Math.random() * 0.3 + 0.3).toFixed(3),
-                                transitivity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                                reciprocity: (Math.random() * 0.3 + 0.5).toFixed(3),
-                                avg_degree: (Math.random() * 3 + 3).toFixed(2),
-                                avg_weighted_degree: (Math.random() * 10 + 8).toFixed(2),
-                                diameter: Math.floor(Math.random() * 2 + 3),
-                                avg_path_length: (Math.random() + 1.5).toFixed(2),
-                                walktrap_communities: Math.floor(Math.random() * 2 + 2),
-                                walktrap_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                                edge_betweenness_communities: Math.floor(Math.random() * 2 + 2),
-                                edge_betweenness_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                                louvain_communities: Math.floor(Math.random() * 2 + 2),
-                                louvain_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                                cohesive_blocks: Math.floor(Math.random() * 3 + 2),
-                                max_cohesion: Math.floor(Math.random() * 3 + 1),
-                                hierarchy_depth: Math.floor(Math.random() * 2 + 2)
-                            };
-                            updateTeamStats(teamCode, season, datasetId, mockTeamData, true);
+                            const mockTeamData = generateMockTeamData(teamCode);
+                            displayTeamData(teamDataContainer, mockTeamData, true);
                         }
                     },
                     error: function(error) {
                         console.error(`Error loading CSV for team ${teamCode} in season ${season}:`, error);
                         // 使用模擬數據
-                        const mockTeamData = {
-                            team: teamCode,
-                            density: (Math.random() * 0.3 + 0.3).toFixed(3),
-                            transitivity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                            reciprocity: (Math.random() * 0.3 + 0.5).toFixed(3),
-                            avg_degree: (Math.random() * 3 + 3).toFixed(2),
-                            avg_weighted_degree: (Math.random() * 10 + 8).toFixed(2),
-                            diameter: Math.floor(Math.random() * 2 + 3),
-                            avg_path_length: (Math.random() + 1.5).toFixed(2),
-                            walktrap_communities: Math.floor(Math.random() * 2 + 2),
-                            walktrap_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                            edge_betweenness_communities: Math.floor(Math.random() * 2 + 2),
-                            edge_betweenness_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                            louvain_communities: Math.floor(Math.random() * 2 + 2),
-                            louvain_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                            cohesive_blocks: Math.floor(Math.random() * 3 + 2),
-                            max_cohesion: Math.floor(Math.random() * 3 + 1),
-                            hierarchy_depth: Math.floor(Math.random() * 2 + 2)
-                        };
-                        updateTeamStats(teamCode, season, datasetId, mockTeamData, true);
+                        const mockTeamData = generateMockTeamData(teamCode);
+                        displayTeamData(teamDataContainer, mockTeamData, true);
                     }
                 });
             } catch (e) {
                 console.error(`Exception when loading CSV for team ${teamCode} in season ${season}:`, e);
                 // 使用模擬數據
-                const mockTeamData = {
-                    team: teamCode,
-                    density: (Math.random() * 0.3 + 0.3).toFixed(3),
-                    transitivity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                    reciprocity: (Math.random() * 0.3 + 0.5).toFixed(3),
-                    avg_degree: (Math.random() * 3 + 3).toFixed(2),
-                    avg_weighted_degree: (Math.random() * 10 + 8).toFixed(2),
-                    diameter: Math.floor(Math.random() * 2 + 3),
-                    avg_path_length: (Math.random() + 1.5).toFixed(2),
-                    walktrap_communities: Math.floor(Math.random() * 2 + 2),
-                    walktrap_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                    edge_betweenness_communities: Math.floor(Math.random() * 2 + 2),
-                    edge_betweenness_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                    louvain_communities: Math.floor(Math.random() * 2 + 2),
-                    louvain_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
-                    cohesive_blocks: Math.floor(Math.random() * 3 + 2),
-                    max_cohesion: Math.floor(Math.random() * 3 + 1),
-                    hierarchy_depth: Math.floor(Math.random() * 2 + 2)
-                };
-                updateTeamStats(teamCode, season, datasetId, mockTeamData, true);
+                const mockTeamData = generateMockTeamData(teamCode);
+                displayTeamData(teamDataContainer, mockTeamData, true);
             }
         }
 
-        // 更新球隊統計數據
-        function updateTeamStats(teamCode, season, datasetId, teamData, isMock = false) {
-            const teamElement = document.getElementById(`team-${season}-${teamCode}-${datasetId}`);
+        // 生成模擬球隊數據
+        function generateMockTeamData(teamCode) {
+            return {
+                team: teamCode,
+                team_name: nbaTeams.find(t => t.code === teamCode)?.name || teamCode,
+                density: (Math.random() * 0.3 + 0.3).toFixed(3),
+                transitivity: (Math.random() * 0.3 + 0.2).toFixed(3),
+                reciprocity: (Math.random() * 0.3 + 0.5).toFixed(3),
+                avg_degree: (Math.random() * 3 + 3).toFixed(2),
+                avg_weighted_degree: (Math.random() * 10 + 8).toFixed(2),
+                diameter: Math.floor(Math.random() * 2 + 3),
+                avg_path_length: (Math.random() + 1.5).toFixed(2),
+                walktrap_communities: Math.floor(Math.random() * 2 + 2),
+                walktrap_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
+                edge_betweenness_communities: Math.floor(Math.random() * 2 + 2),
+                edge_betweenness_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
+                louvain_communities: Math.floor(Math.random() * 2 + 2),
+                louvain_modularity: (Math.random() * 0.3 + 0.2).toFixed(3),
+                cohesive_blocks: Math.floor(Math.random() * 3 + 2),
+                max_cohesion: Math.floor(Math.random() * 3 + 1),
+                hierarchy_depth: Math.floor(Math.random() * 2 + 2)
+            };
+        }
+
+        // 顯示球隊數據
+        function displayTeamData(container, data, isMock = false) {
+            let html = '';
             
             // 如果是模擬數據，添加提示
             if (isMock) {
-                const mockNotice = document.createElement('div');
-                mockNotice.className = 'mock-data-notice';
-                mockNotice.innerHTML = '<i class="bi bi-exclamation-triangle-fill me-2"></i>Unable to load actual data. Displaying simulated metrics.';
-                
-                // 檢查是否已經有提示
-                const existingNotice = teamElement.querySelector('.mock-data-notice');
-                if (!existingNotice) {
-                    teamElement.insertBefore(mockNotice, teamElement.firstChild);
+                html += `
+                <div class="mock-data-notice mb-3">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i>Unable to load actual data. Displaying simulated metrics.
+                </div>`;
+            }
+            
+            // 創建表格顯示所有數據
+            html += '<table class="table table-sm table-bordered team-data-table">';
+            html += '<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>';
+            
+            // 排除 team 和 team_name 欄位
+            for (const [key, value] of Object.entries(data)) {
+                if (key !== 'team' && key !== 'team_name') {
+                    html += `<tr><td>${key}</td><td>${value}</td></tr>`;
                 }
             }
             
-            // 更新網絡指標
-            const networkStats = teamElement.querySelector('.network-stats table');
-            let networkHTML = '';
+            html += '</tbody></table>';
             
-            // 篩選網絡相關指標
-            const networkMetrics = {
-                'Density': teamData.density || 'N/A',
-                'Transitivity': teamData.transitivity || 'N/A',
-                'Reciprocity': teamData.reciprocity || 'N/A',
-                'Avg Degree': teamData.avg_degree || 'N/A',
-                'Avg Weighted Degree': teamData.avg_weighted_degree || 'N/A',
-                'Diameter': teamData.diameter || 'N/A',
-                'Avg Path Length': teamData.avg_path_length || 'N/A'
-            };
-            
-            for (const [key, value] of Object.entries(networkMetrics)) {
-                networkHTML += `<tr><td>${key}</td><td>${value}</td></tr>`;
-            }
-            
-            networkStats.innerHTML = networkHTML;
-            
-            // 更新社群檢測指標
-            const communityStats = teamElement.querySelector('.community-stats table');
-            let communityHTML = '';
-            
-            // 篩選社群相關指標
-            const communityMetrics = {
-                'Walktrap Communities': teamData.walktrap_communities || 'N/A',
-                'Walktrap Modularity': teamData.walktrap_modularity || 'N/A',
-                'Edge Betweenness Communities': teamData.edge_betweenness_communities || 'N/A',
-                'Edge Betweenness Modularity': teamData.edge_betweenness_modularity || 'N/A',
-                'Louvain Communities': teamData.louvain_communities || 'N/A',
-                'Louvain Modularity': teamData.louvain_modularity || 'N/A'
-            };
-            
-            for (const [key, value] of Object.entries(communityMetrics)) {
-                communityHTML += `<tr><td>${key}</td><td>${value}</td></tr>`;
-            }
-            
-            communityStats.innerHTML = communityHTML;
-            
-            // 更新層次分析指標
-            const hierarchyStats = teamElement.querySelector('.hierarchy-stats table');
-            let hierarchyHTML = '';
-            
-            // 篩選層次相關指標
-            const hierarchyMetrics = {
-                'Cohesive Blocks': teamData.cohesive_blocks || 'N/A',
-                'Max Cohesion': teamData.max_cohesion || 'N/A',
-                'Hierarchy Depth': teamData.hierarchy_depth || 'N/A'
-            };
-            
-            for (const [key, value] of Object.entries(hierarchyMetrics)) {
-                hierarchyHTML += `<tr><td>${key}</td><td>${value}</td></tr>`;
-            }
-            
-            hierarchyStats.innerHTML = hierarchyHTML;
+            container.innerHTML = html;
         }
 
         // 處理過濾器功能
@@ -1000,6 +810,7 @@
                 const hiddenElements = container.querySelectorAll('.hidden');
                 hiddenElements.forEach(element => {
                     element.classList.remove('hidden');
+                    
                     // 更改箭頭方向
                     if (element.previousElementSibling && element.previousElementSibling.querySelector('i.chevron-icon')) {
                         const icon = element.previousElementSibling.querySelector('i.chevron-icon');
@@ -1020,10 +831,17 @@
             // 收起所有區段
             document.getElementById(`collapseAll-${datasetId}`).addEventListener('click', function() {
                 const container = document.getElementById(`content-${datasetId}`);
+                
+                // 收起賽季，但保持最新賽季開啟
                 const seasonContents = container.querySelectorAll('.season-content');
                 seasonContents.forEach(element => {
-                    if (!element.id.includes('2023-24') && !element.id.includes('2022-23')) { // 保持最新賽季開啟
+                    // 確定是否為最新賽季
+                    const isLatestSeason = element.id.includes('2023-24') || 
+                                         (datasetId === 'filtered' && element.id.includes('2022-23'));
+                    
+                    if (!isLatestSeason) {
                         element.classList.add('hidden');
+                        
                         // 更改箭頭方向
                         if (element.previousElementSibling && element.previousElementSibling.querySelector('i.chevron-icon')) {
                             const icon = element.previousElementSibling.querySelector('i.chevron-icon');
@@ -1033,9 +851,11 @@
                     }
                 });
                 
+                // 收起所有球隊
                 const teamContents = container.querySelectorAll('.team-content');
                 teamContents.forEach(element => {
                     element.classList.add('hidden');
+                    
                     // 更改箭頭方向
                     if (element.previousElementSibling && element.previousElementSibling.querySelector('i.chevron-icon')) {
                         const icon = element.previousElementSibling.querySelector('i.chevron-icon');
@@ -1051,13 +871,14 @@
                 const teamSearch = document.getElementById(`teamSearch-${datasetId}`).value.toUpperCase();
                 const seasonFilter = document.getElementById(`seasonFilter-${datasetId}`).value;
                 const plotTypeFilter = document.getElementById(`plotTypeFilter-${datasetId}`).value;
-                
+
                 // 過濾賽季
                 const seasonSections = container.querySelectorAll('.season-section');
                 seasonSections.forEach(section => {
                     const seasonValue = section.getAttribute('data-season');
                     if (seasonFilter === 'all' || seasonFilter === seasonValue) {
                         section.style.display = 'block';
+                        
                         // 如果有篩選條件，自動展開賽季
                         if (seasonFilter !== 'all' || teamSearch !== '') {
                             const seasonContent = section.querySelector('.season-content');
@@ -1070,15 +891,15 @@
                         section.style.display = 'none';
                     }
                 });
-                
+
                 // 過濾球隊
                 const teamSections = container.querySelectorAll('.team-section');
                 teamSections.forEach(section => {
                     const teamValue = section.getAttribute('data-team');
                     const teamHeader = section.querySelector('.team-header').textContent;
-                    
                     if (teamSearch === '' || teamValue.includes(teamSearch) || teamHeader.toUpperCase().includes(teamSearch)) {
                         section.style.display = 'block';
+                        
                         // 如果有搜尋條件，自動展開球隊
                         if (teamSearch !== '') {
                             const teamContent = section.querySelector('.team-content');
@@ -1099,7 +920,7 @@
                         section.style.display = 'none';
                     }
                 });
-                
+
                 // 過濾圖表類型
                 if (plotTypeFilter !== 'all') {
                     const plotCategories = container.querySelectorAll('.plot-category');
@@ -1107,19 +928,9 @@
                         if (category.classList.contains(`${plotTypeFilter}-plot`)) {
                             category.style.display = 'block';
                             category.nextElementSibling.style.display = 'block';
-                            // 顯示相關統計數據
-                            if (category.nextElementSibling.nextElementSibling && 
-                                category.nextElementSibling.nextElementSibling.classList.contains(`${plotTypeFilter}-stats`)) {
-                                category.nextElementSibling.nextElementSibling.style.display = 'block';
-                            }
                         } else {
                             category.style.display = 'none';
                             category.nextElementSibling.style.display = 'none';
-                            // 隱藏相關統計數據
-                            if (category.nextElementSibling.nextElementSibling && 
-                                category.nextElementSibling.nextElementSibling.classList.contains('team-stats')) {
-                                category.nextElementSibling.nextElementSibling.style.display = 'none';
-                            }
                         }
                     });
                 } else {
@@ -1128,11 +939,6 @@
                     plotCategories.forEach(category => {
                         category.style.display = 'block';
                         category.nextElementSibling.style.display = 'block';
-                        // 顯示相關統計數據
-                        if (category.nextElementSibling.nextElementSibling && 
-                            category.nextElementSibling.nextElementSibling.classList.contains('team-stats')) {
-                            category.nextElementSibling.nextElementSibling.style.display = 'block';
-                        }
                     });
                 }
             });
@@ -1146,7 +952,12 @@
             
             // 預設顯示第一個賽季的內容
             document.getElementById('season-2023-24-no-filter').classList.remove('hidden');
-            document.getElementById('season-2022-23-filtered').classList.remove('hidden');
+            
+            const filteredFirstSeason = document.getElementById('season-2023-24-filtered') || 
+                                       document.getElementById('season-2022-23-filtered');
+            if (filteredFirstSeason) {
+                filteredFirstSeason.classList.remove('hidden');
+            }
             
             // 處理模態框關閉時銷毀 DataTable
             $('#csvModal').on('hidden.bs.modal', function () {
