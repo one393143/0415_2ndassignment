@@ -424,11 +424,13 @@
 
         <!-- 無篩選資料內容 -->
         <div id="content-no-filter" class="dataset-content">
-            <div class="all-seasons-link mb-3">
-                <a href="#" class="all-seasons-csv" onclick="showCSVData('team_indicators_2020-23_G_0_P_0/all_seasons_network_metrics.csv', 'All Seasons Network Metrics (All Passes)')">
-                    <i class="bi bi-file-earmark-spreadsheet"></i> View All Seasons Network Metrics (All Passes)
-                </a>
-            </div>
+
+			<div class="all-seasons-link mb-3">
+			    <a href="javascript:void(0);" class="all-seasons-csv" onclick="showCSVData('${basePath}/all_seasons_network_metrics.csv', 'All Seasons Network Metrics (${datasetId === 'filtered' ? 'Filtered' : 'All'} Passes)')">
+			        <i class="bi bi-file-earmark-spreadsheet"></i> View All Seasons Network Metrics (${datasetId === 'filtered' ? 'Filtered' : 'All'} Passes)
+			    </a>
+			</div>
+
             
             <div class="filter-section">
                 <div class="row">
@@ -862,21 +864,25 @@
                         <a href="${basePath}/${season}/plots/hierarchy_plots/${team.code}_hierarchy.png" target="_blank">Cohesive Blocks</a>
                     </div>
                     
-                    <!-- 新增網絡指標連結 -->
-                    <a href="#" class="network-indicators-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} Regular Season Passing Network Indicators ${datasetId === 'filtered' ? '(Filtered passes)' : '(all passes)'}', '${team.code}')">
-                        <i class="bi bi-bar-chart-line"></i> Network Indicators
-                    </a>
-                    
-                    <div id="team-data-${season}-${team.code}-${datasetId}"></div>
-                </div>
-            </div>`;
+
+		        
+		        <!-- 修改網絡指標連結 -->
+		        <a href="javascript:void(0);" class="network-indicators-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} Regular Season Passing Network Indicators ${datasetId === 'filtered' ? '(Filtered passes)' : '(all passes)'}', '${team.code}')">
+		            <i class="bi bi-bar-chart-line"></i> Network Indicators
+		        </a>
+		        
+		        <div id="team-data-${season}-${team.code}-${datasetId}"></div>
+		    </div>`;
+
+
+
+
         }
 
 		// 生成賽季HTML
+		// 修改 generateSeasonHTML 函數中的 csv-link 部分
 		function generateSeasonHTML(season, datasetId) {
 		    const basePath = datasetPaths[datasetId];
-		    // 移除這行，讓所有賽季預設都是收合的
-		    // const isHidden = season !== '2023-24' && season !== '2022-23';
 		    const isHidden = true; // 所有賽季預設都是收合的
 		    const hiddenClass = isHidden ? 'hidden' : '';
 		    
@@ -886,7 +892,7 @@
 		            <div>
 		                <i class="bi bi-chevron-right chevron-icon"></i> ${season} Regular Season
 		            </div>
-		            <a href="#" class="csv-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} Regular Season Passing Network Indicators ${datasetId === 'filtered' ? '(Filtered passes)' : '(all passes)'}')">
+		            <a href="javascript:void(0);" class="csv-link" onclick="showCSVData('${basePath}/${season}/network_metrics.csv', '${season} Regular Season Passing Network Indicators ${datasetId === 'filtered' ? '(Filtered passes)' : '(all passes)'}')">
 		                <i class="bi bi-file-earmark-spreadsheet"></i> View Season CSV
 		            </a>
 		        </div>
@@ -895,6 +901,7 @@
 		        </div>
 		    </div>`;
 		}
+
 
 
         // 初始化頁面
