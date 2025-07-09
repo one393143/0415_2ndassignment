@@ -1,0 +1,301 @@
+SEASON,TEAM_ID,TEAM_NAME,PLAYOFF_GAMES,PLAYOFF_ROUND,WINS,LOSSES,LAST_GAME_DATE,IS_CHAMPION,ADVANCED_TO_PLAYOFFS
+2015-16,1610612737,Atlanta Hawks,10,首輪,4,6,"MAY 08, 2016",False,
+2015-16,1610612738,Boston Celtics,6,首輪,2,4,"APR 28, 2016",False,
+2015-16,1610612739,Cleveland Cavaliers,21,總決賽,16,5,"JUN 19, 2016",True,
+2015-16,1610612740,New Orleans Pelicans,0,未進入季後賽,0,0,,,False
+2015-16,1610612741,Chicago Bulls,0,未進入季後賽,0,0,,,False
+2015-16,1610612742,Dallas Mavericks,5,首輪,1,4,"APR 25, 2016",False,
+2015-16,1610612743,Denver Nuggets,0,未進入季後賽,0,0,,,False
+2015-16,1610612744,Golden State Warriors,24,總決賽,15,9,"JUN 19, 2016",False,
+2015-16,1610612745,Houston Rockets,5,首輪,1,4,"APR 27, 2016",False,
+2015-16,1610612746,Los Angeles Clippers,6,首輪,2,4,"APR 29, 2016",False,
+2015-16,1610612747,Los Angeles Lakers,0,未進入季後賽,0,0,,,False
+2015-16,1610612748,Miami Heat,14,分區半決賽,7,7,"MAY 15, 2016",False,
+2015-16,1610612749,Milwaukee Bucks,0,未進入季後賽,0,0,,,False
+2015-16,1610612750,Minnesota Timberwolves,0,未進入季後賽,0,0,,,False
+2015-16,1610612751,Brooklyn Nets,0,未進入季後賽,0,0,,,False
+2015-16,1610612752,New York Knicks,0,未進入季後賽,0,0,,,False
+2015-16,1610612753,Orlando Magic,0,未進入季後賽,0,0,,,False
+2015-16,1610612754,Indiana Pacers,7,首輪,3,4,"MAY 01, 2016",False,
+2015-16,1610612755,Philadelphia 76ers,0,未進入季後賽,0,0,,,False
+2015-16,1610612756,Phoenix Suns,0,未進入季後賽,0,0,,,False
+2015-16,1610612757,Portland Trail Blazers,11,分區半決賽,5,6,"MAY 11, 2016",False,
+2015-16,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2015-16,1610612759,San Antonio Spurs,10,分區半決賽,6,4,"MAY 12, 2016",False,
+2015-16,1610612760,Oklahoma City Thunder,18,分區決賽,11,7,"MAY 30, 2016",False,
+2015-16,1610612761,Toronto Raptors,20,分區決賽,10,10,"MAY 27, 2016",False,
+2015-16,1610612762,Utah Jazz,0,未進入季後賽,0,0,,,False
+2015-16,1610612763,Memphis Grizzlies,4,未進入季後賽,0,4,"APR 24, 2016",False,
+2015-16,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2015-16,1610612765,Detroit Pistons,4,未進入季後賽,0,4,"APR 24, 2016",False,
+2015-16,1610612766,Charlotte Hornets,7,首輪,3,4,"MAY 01, 2016",False,
+2016-17,1610612737,Atlanta Hawks,6,首輪,2,4,"APR 28, 2017",False,
+2016-17,1610612738,Boston Celtics,18,分區決賽,9,9,"MAY 25, 2017",False,
+2016-17,1610612739,Cleveland Cavaliers,18,總決賽,13,5,"JUN 12, 2017",False,
+2016-17,1610612740,New Orleans Pelicans,0,未進入季後賽,0,0,,,False
+2016-17,1610612741,Chicago Bulls,6,首輪,2,4,"APR 28, 2017",False,
+2016-17,1610612742,Dallas Mavericks,0,未進入季後賽,0,0,,,False
+2016-17,1610612743,Denver Nuggets,0,未進入季後賽,0,0,,,False
+2016-17,1610612744,Golden State Warriors,17,總決賽,16,1,"JUN 12, 2017",True,
+2016-17,1610612745,Houston Rockets,11,分區半決賽,6,5,"MAY 11, 2017",False,
+2016-17,1610612746,Los Angeles Clippers,7,首輪,3,4,"APR 30, 2017",False,
+2016-17,1610612747,Los Angeles Lakers,0,未進入季後賽,0,0,,,False
+2016-17,1610612748,Miami Heat,0,未進入季後賽,0,0,,,False
+2016-17,1610612749,Milwaukee Bucks,6,首輪,2,4,"APR 27, 2017",False,
+2016-17,1610612750,Minnesota Timberwolves,0,未進入季後賽,0,0,,,False
+2016-17,1610612751,Brooklyn Nets,0,未進入季後賽,0,0,,,False
+2016-17,1610612752,New York Knicks,0,未進入季後賽,0,0,,,False
+2016-17,1610612753,Orlando Magic,0,未進入季後賽,0,0,,,False
+2016-17,1610612754,Indiana Pacers,4,未進入季後賽,0,4,"APR 23, 2017",False,
+2016-17,1610612755,Philadelphia 76ers,0,未進入季後賽,0,0,,,False
+2016-17,1610612756,Phoenix Suns,0,未進入季後賽,0,0,,,False
+2016-17,1610612757,Portland Trail Blazers,4,未進入季後賽,0,4,"APR 24, 2017",False,
+2016-17,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2016-17,1610612759,San Antonio Spurs,16,分區半決賽,8,8,"MAY 22, 2017",False,
+2016-17,1610612760,Oklahoma City Thunder,5,首輪,1,4,"APR 25, 2017",False,
+2016-17,1610612761,Toronto Raptors,10,首輪,4,6,"MAY 07, 2017",False,
+2016-17,1610612762,Utah Jazz,11,首輪,4,7,"MAY 08, 2017",False,
+2016-17,1610612763,Memphis Grizzlies,6,首輪,2,4,"APR 27, 2017",False,
+2016-17,1610612764,Washington Wizards,13,分區半決賽,7,6,"MAY 15, 2017",False,
+2016-17,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2016-17,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
+2017-18,1610612737,Atlanta Hawks,0,未進入季後賽,0,0,,,False
+2017-18,1610612738,Boston Celtics,19,分區決賽,11,8,"MAY 27, 2018",False,
+2017-18,1610612739,Cleveland Cavaliers,22,分區決賽,12,10,"JUN 08, 2018",False,
+2017-18,1610612740,New Orleans Pelicans,9,分區半決賽,5,4,"MAY 08, 2018",False,
+2017-18,1610612741,Chicago Bulls,0,未進入季後賽,0,0,,,False
+2017-18,1610612742,Dallas Mavericks,0,未進入季後賽,0,0,,,False
+2017-18,1610612743,Denver Nuggets,0,未進入季後賽,0,0,,,False
+2017-18,1610612744,Golden State Warriors,21,總決賽,16,5,"JUN 08, 2018",True,
+2017-18,1610612745,Houston Rockets,17,分區決賽,11,6,"MAY 28, 2018",False,
+2017-18,1610612746,Los Angeles Clippers,0,未進入季後賽,0,0,,,False
+2017-18,1610612747,Los Angeles Lakers,0,未進入季後賽,0,0,,,False
+2017-18,1610612748,Miami Heat,5,首輪,1,4,"APR 24, 2018",False,
+2017-18,1610612749,Milwaukee Bucks,7,首輪,3,4,"APR 28, 2018",False,
+2017-18,1610612750,Minnesota Timberwolves,5,首輪,1,4,"APR 25, 2018",False,
+2017-18,1610612751,Brooklyn Nets,0,未進入季後賽,0,0,,,False
+2017-18,1610612752,New York Knicks,0,未進入季後賽,0,0,,,False
+2017-18,1610612753,Orlando Magic,0,未進入季後賽,0,0,,,False
+2017-18,1610612754,Indiana Pacers,7,首輪,3,4,"APR 29, 2018",False,
+2017-18,1610612755,Philadelphia 76ers,10,分區半決賽,5,5,"MAY 09, 2018",False,
+2017-18,1610612756,Phoenix Suns,0,未進入季後賽,0,0,,,False
+2017-18,1610612757,Portland Trail Blazers,4,未進入季後賽,0,4,"APR 21, 2018",False,
+2017-18,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2017-18,1610612759,San Antonio Spurs,5,首輪,1,4,"APR 24, 2018",False,
+2017-18,1610612760,Oklahoma City Thunder,6,首輪,2,4,"APR 27, 2018",False,
+2017-18,1610612761,Toronto Raptors,10,首輪,4,6,"MAY 07, 2018",False,
+2017-18,1610612762,Utah Jazz,11,分區半決賽,5,6,"MAY 08, 2018",False,
+2017-18,1610612763,Memphis Grizzlies,0,未進入季後賽,0,0,,,False
+2017-18,1610612764,Washington Wizards,6,首輪,2,4,"APR 27, 2018",False,
+2017-18,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2017-18,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
+2018-19,1610612737,Atlanta Hawks,0,未進入季後賽,0,0,,,False
+2018-19,1610612738,Boston Celtics,9,分區半決賽,5,4,"MAY 08, 2019",False,
+2018-19,1610612739,Cleveland Cavaliers,0,未進入季後賽,0,0,,,False
+2018-19,1610612740,New Orleans Pelicans,0,未進入季後賽,0,0,,,False
+2018-19,1610612741,Chicago Bulls,0,未進入季後賽,0,0,,,False
+2018-19,1610612742,Dallas Mavericks,0,未進入季後賽,0,0,,,False
+2018-19,1610612743,Denver Nuggets,14,分區半決賽,7,7,"MAY 12, 2019",False,
+2018-19,1610612744,Golden State Warriors,22,總決賽,14,8,"JUN 13, 2019",False,
+2018-19,1610612745,Houston Rockets,11,分區半決賽,6,5,"MAY 10, 2019",False,
+2018-19,1610612746,Los Angeles Clippers,6,首輪,2,4,"APR 26, 2019",False,
+2018-19,1610612747,Los Angeles Lakers,0,未進入季後賽,0,0,,,False
+2018-19,1610612748,Miami Heat,0,未進入季後賽,0,0,,,False
+2018-19,1610612749,Milwaukee Bucks,15,分區決賽,10,5,"MAY 25, 2019",False,
+2018-19,1610612750,Minnesota Timberwolves,0,未進入季後賽,0,0,,,False
+2018-19,1610612751,Brooklyn Nets,5,首輪,1,4,"APR 23, 2019",False,
+2018-19,1610612752,New York Knicks,0,未進入季後賽,0,0,,,False
+2018-19,1610612753,Orlando Magic,5,首輪,1,4,"APR 23, 2019",False,
+2018-19,1610612754,Indiana Pacers,4,未進入季後賽,0,4,"APR 21, 2019",False,
+2018-19,1610612755,Philadelphia 76ers,12,分區半決賽,7,5,"MAY 12, 2019",False,
+2018-19,1610612756,Phoenix Suns,0,未進入季後賽,0,0,,,False
+2018-19,1610612757,Portland Trail Blazers,16,分區半決賽,8,8,"MAY 20, 2019",False,
+2018-19,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2018-19,1610612759,San Antonio Spurs,7,首輪,3,4,"APR 27, 2019",False,
+2018-19,1610612760,Oklahoma City Thunder,5,首輪,1,4,"APR 23, 2019",False,
+2018-19,1610612761,Toronto Raptors,24,總決賽,16,8,"JUN 13, 2019",True,
+2018-19,1610612762,Utah Jazz,5,首輪,1,4,"APR 24, 2019",False,
+2018-19,1610612763,Memphis Grizzlies,0,未進入季後賽,0,0,,,False
+2018-19,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2018-19,1610612765,Detroit Pistons,4,未進入季後賽,0,4,"APR 22, 2019",False,
+2018-19,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
+2019-20,1610612737,Atlanta Hawks,0,未進入季後賽,0,0,,,False
+2019-20,1610612738,Boston Celtics,17,分區決賽,10,7,"SEP 27, 2020",False,
+2019-20,1610612739,Cleveland Cavaliers,0,未進入季後賽,0,0,,,False
+2019-20,1610612740,New Orleans Pelicans,0,未進入季後賽,0,0,,,False
+2019-20,1610612741,Chicago Bulls,0,未進入季後賽,0,0,,,False
+2019-20,1610612742,Dallas Mavericks,6,首輪,2,4,"AUG 30, 2020",False,
+2019-20,1610612743,Denver Nuggets,19,分區決賽,9,10,"SEP 26, 2020",False,
+2019-20,1610612744,Golden State Warriors,0,未進入季後賽,0,0,,,False
+2019-20,1610612745,Houston Rockets,12,分區半決賽,5,7,"SEP 12, 2020",False,
+2019-20,1610612746,Los Angeles Clippers,13,分區半決賽,7,6,"SEP 15, 2020",False,
+2019-20,1610612747,Los Angeles Lakers,21,總決賽,16,5,"OCT 11, 2020",True,
+2019-20,1610612748,Miami Heat,21,總決賽,14,7,"OCT 11, 2020",False,
+2019-20,1610612749,Milwaukee Bucks,10,分區半決賽,5,5,"SEP 08, 2020",False,
+2019-20,1610612750,Minnesota Timberwolves,0,未進入季後賽,0,0,,,False
+2019-20,1610612751,Brooklyn Nets,4,未進入季後賽,0,4,"AUG 23, 2020",False,
+2019-20,1610612752,New York Knicks,0,未進入季後賽,0,0,,,False
+2019-20,1610612753,Orlando Magic,5,首輪,1,4,"AUG 29, 2020",False,
+2019-20,1610612754,Indiana Pacers,4,未進入季後賽,0,4,"AUG 24, 2020",False,
+2019-20,1610612755,Philadelphia 76ers,4,未進入季後賽,0,4,"AUG 23, 2020",False,
+2019-20,1610612756,Phoenix Suns,0,未進入季後賽,0,0,,,False
+2019-20,1610612757,Portland Trail Blazers,5,首輪,1,4,"AUG 29, 2020",False,
+2019-20,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2019-20,1610612759,San Antonio Spurs,0,未進入季後賽,0,0,,,False
+2019-20,1610612760,Oklahoma City Thunder,7,首輪,3,4,"SEP 02, 2020",False,
+2019-20,1610612761,Toronto Raptors,11,分區半決賽,7,4,"SEP 11, 2020",False,
+2019-20,1610612762,Utah Jazz,7,首輪,3,4,"SEP 01, 2020",False,
+2019-20,1610612763,Memphis Grizzlies,0,未進入季後賽,0,0,,,False
+2019-20,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2019-20,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2019-20,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
+2020-21,1610612737,Atlanta Hawks,18,分區決賽,10,8,"JUL 03, 2021",False,
+2020-21,1610612738,Boston Celtics,5,附加賽,1,4,"JUN 01, 2021",False,
+2020-21,1610612739,Cleveland Cavaliers,0,未進入季後賽,0,0,,,False
+2020-21,1610612740,New Orleans Pelicans,0,未進入季後賽,0,0,,,False
+2020-21,1610612741,Chicago Bulls,0,未進入季後賽,0,0,,,False
+2020-21,1610612742,Dallas Mavericks,7,首輪,3,4,"JUN 06, 2021",False,
+2020-21,1610612743,Denver Nuggets,10,首輪,4,6,"JUN 13, 2021",False,
+2020-21,1610612744,Golden State Warriors,2,附加賽,0,2,"MAY 21, 2021",,False
+2020-21,1610612745,Houston Rockets,0,未進入季後賽,0,0,,,False
+2020-21,1610612746,Los Angeles Clippers,19,分區決賽,10,9,"JUN 30, 2021",False,
+2020-21,1610612747,Los Angeles Lakers,6,首輪,2,4,"JUN 03, 2021",False,
+2020-21,1610612748,Miami Heat,4,可能為附加賽,0,4,"MAY 29, 2021",False,
+2020-21,1610612749,Milwaukee Bucks,23,總決賽,16,7,"JUL 20, 2021",True,
+2020-21,1610612750,Minnesota Timberwolves,0,未進入季後賽,0,0,,,False
+2020-21,1610612751,Brooklyn Nets,12,分區半決賽,7,5,"JUN 19, 2021",False,
+2020-21,1610612752,New York Knicks,5,附加賽,1,4,"JUN 02, 2021",False,
+2020-21,1610612753,Orlando Magic,0,未進入季後賽,0,0,,,False
+2020-21,1610612754,Indiana Pacers,2,附加賽,1,1,"MAY 20, 2021",,False
+2020-21,1610612755,Philadelphia 76ers,12,分區半決賽,7,5,"JUN 20, 2021",False,
+2020-21,1610612756,Phoenix Suns,22,總決賽,14,8,"JUL 20, 2021",False,
+2020-21,1610612757,Portland Trail Blazers,6,首輪,2,4,"JUN 03, 2021",False,
+2020-21,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2020-21,1610612759,San Antonio Spurs,1,附加賽,0,1,"MAY 19, 2021",,False
+2020-21,1610612760,Oklahoma City Thunder,0,未進入季後賽,0,0,,,False
+2020-21,1610612761,Toronto Raptors,0,未進入季後賽,0,0,,,False
+2020-21,1610612762,Utah Jazz,11,分區半決賽,6,5,"JUN 18, 2021",False,
+2020-21,1610612763,Memphis Grizzlies,5,附加賽,1,4,"JUN 02, 2021",False,
+2020-21,1610612764,Washington Wizards,5,附加賽,1,4,"JUN 02, 2021",False,
+2020-21,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2020-21,1610612766,Charlotte Hornets,1,附加賽,0,1,"MAY 18, 2021",,False
+2021-22,1610612737,Atlanta Hawks,5,附加賽,1,4,"APR 26, 2022",False,
+2021-22,1610612738,Boston Celtics,24,總決賽,14,10,"JUN 16, 2022",False,
+2021-22,1610612739,Cleveland Cavaliers,2,附加賽,0,2,"APR 15, 2022",,False
+2021-22,1610612740,New Orleans Pelicans,6,首輪,2,4,"APR 28, 2022",False,
+2021-22,1610612741,Chicago Bulls,5,附加賽,1,4,"APR 27, 2022",False,
+2021-22,1610612742,Dallas Mavericks,18,分區決賽,9,9,"MAY 26, 2022",False,
+2021-22,1610612743,Denver Nuggets,5,附加賽,1,4,"APR 27, 2022",False,
+2021-22,1610612744,Golden State Warriors,22,總決賽,16,6,"JUN 16, 2022",True,
+2021-22,1610612745,Houston Rockets,0,未進入季後賽,0,0,,,False
+2021-22,1610612746,Los Angeles Clippers,2,附加賽,0,2,"APR 15, 2022",,False
+2021-22,1610612747,Los Angeles Lakers,0,未進入季後賽,0,0,,,False
+2021-22,1610612748,Miami Heat,18,分區決賽,11,7,"MAY 29, 2022",False,
+2021-22,1610612749,Milwaukee Bucks,12,分區半決賽,7,5,"MAY 15, 2022",False,
+2021-22,1610612750,Minnesota Timberwolves,6,首輪,2,4,"APR 29, 2022",False,
+2021-22,1610612751,Brooklyn Nets,4,可能為附加賽,0,4,"APR 25, 2022",False,
+2021-22,1610612752,New York Knicks,0,未進入季後賽,0,0,,,False
+2021-22,1610612753,Orlando Magic,0,未進入季後賽,0,0,,,False
+2021-22,1610612754,Indiana Pacers,0,未進入季後賽,0,0,,,False
+2021-22,1610612755,Philadelphia 76ers,12,分區半決賽,6,6,"MAY 12, 2022",False,
+2021-22,1610612756,Phoenix Suns,13,分區半決賽,7,6,"MAY 15, 2022",False,
+2021-22,1610612757,Portland Trail Blazers,0,未進入季後賽,0,0,,,False
+2021-22,1610612758,Sacramento Kings,0,未進入季後賽,0,0,,,False
+2021-22,1610612759,San Antonio Spurs,1,附加賽,0,1,"APR 13, 2022",,False
+2021-22,1610612760,Oklahoma City Thunder,0,未進入季後賽,0,0,,,False
+2021-22,1610612761,Toronto Raptors,6,首輪,2,4,"APR 28, 2022",False,
+2021-22,1610612762,Utah Jazz,6,首輪,2,4,"APR 28, 2022",False,
+2021-22,1610612763,Memphis Grizzlies,12,分區半決賽,6,6,"MAY 13, 2022",False,
+2021-22,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2021-22,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2021-22,1610612766,Charlotte Hornets,1,附加賽,0,1,"APR 13, 2022",,False
+2022-23,1610612737,Atlanta Hawks,6,首輪,2,4,"APR 27, 2023",False,
+2022-23,1610612738,Boston Celtics,20,分區決賽,11,9,"MAY 29, 2023",False,
+2022-23,1610612739,Cleveland Cavaliers,5,附加賽,1,4,"APR 26, 2023",False,
+2022-23,1610612740,New Orleans Pelicans,1,附加賽,0,1,"APR 12, 2023",,False
+2022-23,1610612741,Chicago Bulls,2,附加賽,1,1,"APR 14, 2023",,False
+2022-23,1610612742,Dallas Mavericks,0,未進入季後賽,0,0,,,False
+2022-23,1610612743,Denver Nuggets,20,總決賽,16,4,"JUN 12, 2023",True,
+2022-23,1610612744,Golden State Warriors,13,分區半決賽,6,7,"MAY 12, 2023",False,
+2022-23,1610612745,Houston Rockets,0,未進入季後賽,0,0,,,False
+2022-23,1610612746,Los Angeles Clippers,5,附加賽,1,4,"APR 25, 2023",False,
+2022-23,1610612747,Los Angeles Lakers,16,分區半決賽,8,8,"MAY 22, 2023",False,
+2022-23,1610612748,Miami Heat,23,總決賽,13,10,"JUN 12, 2023",False,
+2022-23,1610612749,Milwaukee Bucks,5,附加賽,1,4,"APR 26, 2023",False,
+2022-23,1610612750,Minnesota Timberwolves,5,附加賽,1,4,"APR 25, 2023",False,
+2022-23,1610612751,Brooklyn Nets,4,可能為附加賽,0,4,"APR 22, 2023",False,
+2022-23,1610612752,New York Knicks,11,分區半決賽,6,5,"MAY 12, 2023",False,
+2022-23,1610612753,Orlando Magic,0,未進入季後賽,0,0,,,False
+2022-23,1610612754,Indiana Pacers,0,未進入季後賽,0,0,,,False
+2022-23,1610612755,Philadelphia 76ers,11,分區半決賽,7,4,"MAY 14, 2023",False,
+2022-23,1610612756,Phoenix Suns,11,分區半決賽,6,5,"MAY 11, 2023",False,
+2022-23,1610612757,Portland Trail Blazers,0,未進入季後賽,0,0,,,False
+2022-23,1610612758,Sacramento Kings,7,首輪,3,4,"APR 30, 2023",False,
+2022-23,1610612759,San Antonio Spurs,0,未進入季後賽,0,0,,,False
+2022-23,1610612760,Oklahoma City Thunder,2,附加賽,1,1,"APR 14, 2023",,False
+2022-23,1610612761,Toronto Raptors,1,附加賽,0,1,"APR 12, 2023",,False
+2022-23,1610612762,Utah Jazz,0,未進入季後賽,0,0,,,False
+2022-23,1610612763,Memphis Grizzlies,6,首輪,2,4,"APR 28, 2023",False,
+2022-23,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2022-23,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2022-23,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
+2023-24,1610612737,Atlanta Hawks,1,附加賽,0,1,"APR 17, 2024",,False
+2023-24,1610612738,Boston Celtics,19,總決賽,16,3,"JUN 17, 2024",True,
+2023-24,1610612739,Cleveland Cavaliers,12,分區半決賽,5,7,"MAY 15, 2024",False,
+2023-24,1610612740,New Orleans Pelicans,4,可能為附加賽,0,4,"APR 29, 2024",False,
+2023-24,1610612741,Chicago Bulls,2,附加賽,1,1,"APR 19, 2024",,False
+2023-24,1610612742,Dallas Mavericks,22,總決賽,13,9,"JUN 17, 2024",False,
+2023-24,1610612743,Denver Nuggets,12,分區半決賽,7,5,"MAY 19, 2024",False,
+2023-24,1610612744,Golden State Warriors,1,附加賽,0,1,"APR 16, 2024",,False
+2023-24,1610612745,Houston Rockets,0,未進入季後賽,0,0,,,False
+2023-24,1610612746,Los Angeles Clippers,6,首輪,2,4,"MAY 03, 2024",False,
+2023-24,1610612747,Los Angeles Lakers,5,附加賽,1,4,"APR 29, 2024",False,
+2023-24,1610612748,Miami Heat,5,附加賽,1,4,"MAY 01, 2024",False,
+2023-24,1610612749,Milwaukee Bucks,6,首輪,2,4,"MAY 02, 2024",False,
+2023-24,1610612750,Minnesota Timberwolves,16,分區決賽,9,7,"MAY 30, 2024",False,
+2023-24,1610612751,Brooklyn Nets,0,未進入季後賽,0,0,,,False
+2023-24,1610612752,New York Knicks,13,分區半決賽,7,6,"MAY 19, 2024",False,
+2023-24,1610612753,Orlando Magic,7,首輪,3,4,"MAY 05, 2024",False,
+2023-24,1610612754,Indiana Pacers,17,分區半決賽,8,9,"MAY 27, 2024",False,
+2023-24,1610612755,Philadelphia 76ers,6,首輪,2,4,"MAY 02, 2024",False,
+2023-24,1610612756,Phoenix Suns,4,可能為附加賽,0,4,"APR 28, 2024",False,
+2023-24,1610612757,Portland Trail Blazers,0,未進入季後賽,0,0,,,False
+2023-24,1610612758,Sacramento Kings,2,附加賽,1,1,"APR 19, 2024",,False
+2023-24,1610612759,San Antonio Spurs,0,未進入季後賽,0,0,,,False
+2023-24,1610612760,Oklahoma City Thunder,10,分區半決賽,6,4,"MAY 18, 2024",False,
+2023-24,1610612761,Toronto Raptors,0,未進入季後賽,0,0,,,False
+2023-24,1610612762,Utah Jazz,0,未進入季後賽,0,0,,,False
+2023-24,1610612763,Memphis Grizzlies,0,未進入季後賽,0,0,,,False
+2023-24,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2023-24,1610612765,Detroit Pistons,0,未進入季後賽,0,0,,,False
+2023-24,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
+2024-25,1610612737,Atlanta Hawks,2,附加賽,0,2,"APR 18, 2025",,False
+2024-25,1610612738,Boston Celtics,11,分區半決賽,6,5,"MAY 16, 2025",False,
+2024-25,1610612739,Cleveland Cavaliers,9,分區半決賽,5,4,"MAY 13, 2025",False,
+2024-25,1610612740,New Orleans Pelicans,0,未進入季後賽,0,0,,,False
+2024-25,1610612741,Chicago Bulls,1,附加賽,0,1,"APR 16, 2025",,False
+2024-25,1610612742,Dallas Mavericks,2,附加賽,1,1,"APR 18, 2025",,False
+2024-25,1610612743,Denver Nuggets,14,分區半決賽,7,7,"MAY 18, 2025",False,
+2024-25,1610612744,Golden State Warriors,12,分區半決賽,5,7,"MAY 14, 2025",False,
+2024-25,1610612745,Houston Rockets,7,首輪,3,4,"MAY 04, 2025",False,
+2024-25,1610612746,Los Angeles Clippers,7,首輪,3,4,"MAY 03, 2025",False,
+2024-25,1610612747,Los Angeles Lakers,5,附加賽,1,4,"APR 30, 2025",False,
+2024-25,1610612748,Miami Heat,4,可能為附加賽,0,4,"APR 28, 2025",False,
+2024-25,1610612749,Milwaukee Bucks,5,附加賽,1,4,"APR 29, 2025",False,
+2024-25,1610612750,Minnesota Timberwolves,15,分區決賽,9,6,"MAY 28, 2025",False,
+2024-25,1610612751,Brooklyn Nets,0,未進入季後賽,0,0,,,False
+2024-25,1610612752,New York Knicks,18,分區決賽,10,8,"MAY 31, 2025",False,
+2024-25,1610612753,Orlando Magic,5,附加賽,1,4,"APR 29, 2025",False,
+2024-25,1610612754,Indiana Pacers,23,總決賽,15,8,"JUN 22, 2025",False,
+2024-25,1610612755,Philadelphia 76ers,0,未進入季後賽,0,0,,,False
+2024-25,1610612756,Phoenix Suns,0,未進入季後賽,0,0,,,False
+2024-25,1610612757,Portland Trail Blazers,0,未進入季後賽,0,0,,,False
+2024-25,1610612758,Sacramento Kings,1,附加賽,0,1,"APR 16, 2025",,False
+2024-25,1610612759,San Antonio Spurs,0,未進入季後賽,0,0,,,False
+2024-25,1610612760,Oklahoma City Thunder,23,總決賽,16,7,"JUN 22, 2025",True,
+2024-25,1610612761,Toronto Raptors,0,未進入季後賽,0,0,,,False
+2024-25,1610612762,Utah Jazz,0,未進入季後賽,0,0,,,False
+2024-25,1610612763,Memphis Grizzlies,4,可能為附加賽,0,4,"APR 26, 2025",False,
+2024-25,1610612764,Washington Wizards,0,未進入季後賽,0,0,,,False
+2024-25,1610612765,Detroit Pistons,6,首輪,2,4,"MAY 01, 2025",False,
+2024-25,1610612766,Charlotte Hornets,0,未進入季後賽,0,0,,,False
