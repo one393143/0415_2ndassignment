@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-04-26 10:11:28",
+  "total_mappings": 6781,
+  "successful_mappings": 6656,
+  "failed_mappings": 125,
+  "success_rate": 98.15661406872142,
+  "team_stats": {
+    "ATL": {
+      "total": 218,
+      "successful": 213
+    },
+    "HOU": {
+      "total": 236,
+      "successful": 233
+    },
+    "OKC": {
+      "total": 224,
+      "successful": 220
+    },
+    "BOS": {
+      "total": 219,
+      "successful": 217
+    },
+    "ORL": {
+      "total": 224,
+      "successful": 224
+    },
+    "BKN": {
+      "total": 233,
+      "successful": 226
+    },
+    "NYK": {
+      "total": 226,
+      "successful": 218
+    },
+    "DET": {
+      "total": 242,
+      "successful": 239
+    },
+    "CHA": {
+      "total": 205,
+      "successful": 204
+    },
+    "LAC": {
+      "total": 219,
+      "successful": 212
+    },
+    "CHI": {
+      "total": 214,
+      "successful": 208
+    },
+    "CLE": {
+      "total": 237,
+      "successful": 234
+    },
+    "LAL": {
+      "total": 236,
+      "successful": 230
+    },
+    "PHI": {
+      "total": 246,
+      "successful": 246
+    },
+    "DAL": {
+      "total": 237,
+      "successful": 230
+    },
+    "DEN": {
+      "total": 221,
+      "successful": 219
+    },
+    "MIA": {
+      "total": 223,
+      "successful": 218
+    },
+    "GSW": {
+      "total": 205,
+      "successful": 200
+    },
+    "IND": {
+      "total": 226,
+      "successful": 224
+    },
+    "SAC": {
+      "total": 219,
+      "successful": 215
+    },
+    "SAS": {
+      "total": 220,
+      "successful": 213
+    },
+    "MEM": {
+      "total": 254,
+      "successful": 248
+    },
+    "MIL": {
+      "total": 240,
+      "successful": 235
+    },
+    "MIN": {
+      "total": 205,
+      "successful": 204
+    },
+    "NOP": {
+      "total": 231,
+      "successful": 226
+    },
+    "POR": {
+      "total": 226,
+      "successful": 223
+    },
+    "TOR": {
+      "total": 224,
+      "successful": 217
+    },
+    "PHX": {
+      "total": 217,
+      "successful": 217
+    },
+    "WAS": {
+      "total": 231,
+      "successful": 227
+    },
+    "UTA": {
+      "total": 223,
+      "successful": 216
+    }
+  },
+  "season_stats": {
+    "2020-21": {
+      "total": 614,
+      "successful": 607
+    },
+    "2021-22": {
+      "total": 747,
+      "successful": 740
+    },
+    "2022-23": {
+      "total": 632,
+      "successful": 630
+    },
+    "2023-24": {
+      "total": 673,
+      "successful": 664
+    },
+    "2024-25": {
+      "total": 491,
+      "successful": 483
+    },
+    "2014-15": {
+      "total": 560,
+      "successful": 545
+    },
+    "2015-16": {
+      "total": 564,
+      "successful": 547
+    },
+    "2016-17": {
+      "total": 610,
+      "successful": 587
+    },
+    "2017-18": {
+      "total": 651,
+      "successful": 639
+    },
+    "2018-19": {
+      "total": 625,
+      "successful": 604
+    },
+    "2019-20": {
+      "total": 614,
+      "successful": 610
+    }
+  }
+}

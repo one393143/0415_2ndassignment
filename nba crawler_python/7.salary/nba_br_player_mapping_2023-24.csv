@@ -1,0 +1,674 @@
+id,full_name,id_in_br,full_name_in_br,team,br_team,season,salary
+1629027,Trae Young,youngtr01,Trae Young,ATL,ATL,2023-24,40064220.0
+203991,Clint Capela,capelca01,Clint Capela,ATL,ATL,2023-24,20616000.0
+1629631,De'Andre Hunter,huntede01,De'Andre Hunter,ATL,ATL,2023-24,20089286.0
+203992,Bogdan Bogdanović,bogdabo01,Bogdan BogdanoviÄ,ATL,ATL,2023-24,18700000.0
+1627749,Dejounte Murray,murrade01,Dejounte Murray,ATL,ATL,2023-24,18214000.0
+1630168,Onyeka Okongwu,okongon01,Onyeka Okongwu,ATL,ATL,2023-24,8109063.0
+201988,Patty Mills,millspa02,Patty Mills,MIA,ATL,2023-24,6802950.0
+1630180,Saddiq Bey,beysa01,Saddiq Bey,ATL,ATL,2023-24,4556983.0
+1641723,Kobe Bufkin,bufkiko01,Kobe Bufkin,ATL,ATL,2023-24,4094280.0
+1631100,AJ Griffin,griffaj01,AJ Griffin,ATL,ATL,2023-24,3712920.0
+1630552,Jalen Johnson,johnsja05,Jalen Johnson,ATL,ATL,2023-24,2925360.0
+1628981,Bruno Fernando,fernabr01,Bruno Fernando,ATL,ATL,2023-24,2581522.0
+202083,Wesley Matthews,matthwe02,Wesley Matthews,ATL,ATL,2023-24,2019706.0
+1629726,Garrison Mathews,mathega01,Garrison Mathews,ATL,ATL,2023-24,2000000.0
+1631243,Mouhamed Gueye,gueyemo02,Mouhamed Gueye,ATL,ATL,2023-24,1119563.0
+,未知,joineja01,Jarkel Joiner,ATL,ATL,2023-24,1119563.0
+1630235,Trent Forrest,forretr01,Trent Forrest,ATL,ATL,2023-24,533945.0
+1641936,Miles Norris,norrimi01,Miles Norris,ATL,ATL,2023-24,
+1641754,Seth Lundy,lundyse01,Seth Lundy,ATL,ATL,2023-24,
+1630249,Vít Krejčí,krejcvi01,Vit Krejci,ATL,ATL,2023-24,
+1629685,Dylan Windler,windldy01,Dylan Windler,ATL,ATL,2023-24,
+201950,Jrue Holiday,holidjr01,Jrue Holiday,BOS,BOS,2023-24,36861707.0
+204001,Kristaps Porziņģis,porzikr01,Kristaps PorziÅÄ£is,BOS,BOS,2023-24,36016200.0
+1628369,Jayson Tatum,tatumja01,Jayson Tatum,BOS,BOS,2023-24,32600060.0
+1627759,Jaylen Brown,brownja02,Jaylen Brown,BOS,BOS,2023-24,31830357.0
+1628401,Derrick White,whitede01,Derrick White,BOS,BOS,2023-24,18357143.0
+201143,Al Horford,horfoal01,Al Horford,BOS,BOS,2023-24,10000000.0
+1630202,Payton Pritchard,pritcpa01,Payton Pritchard,BOS,BOS,2023-24,4037277.0
+1628436,Luke Kornet,kornelu01,Luke Kornet,BOS,BOS,2023-24,2413304.0
+1630531,Jaden Springer,sprinja01,Jaden Springer,BOS,BOS,2023-24,2226240.0
+1629052,Oshae Brissett,brissos01,Oshae Brissett,BOS,BOS,2023-24,2165000.0
+1629004,Svi Mykhailiuk,mykhasv01,Svi Mykhailiuk,BOS,BOS,2023-24,2019706.0
+1630214,Xavier Tillman,tillmxa01,Xavier Tillman,BOS,BOS,2023-24,1930681.0
+1630573,Sam Hauser,hausesa01,Sam Hauser,BOS,BOS,2023-24,1927896.0
+1641775,Jordan Walsh,walshjo01,Jordan Walsh,BOS,BOS,2023-24,1119563.0
+1627743,Demetrius Jackson,jacksde01,Demetrius Jackson,BOS,BOS,2023-24,92857.0
+1629674,Neemias Queta,quetane01,Neemias Queta,BOS,BOS,2023-24,81253.0
+1631120,JD Davison,davisjd01,JD Davison,BOS,BOS,2023-24,
+1630206,Jay Scrubb,scrubja01,Jay Scrubb,BOS,BOS,2023-24,
+1630233,Nathan Knight,knighna01,Nathan Knight,BOS,BOS,2023-24,
+1641809,Drew Peterson,peterdr01,Drew Peterson,BOS,BOS,2023-24,
+1627732,Ben Simmons,simmobe01,Ben Simmons,BKN,BRK,2023-24,37893408.0
+1629661,Cameron Johnson,johnsca02,Cameron Johnson,BKN,BRK,2023-24,25679348.0
+1628969,Mikal Bridges,bridgmi01,Mikal Bridges,BKN,BRK,2023-24,21700000.0
+1627827,Dorian Finney-Smith,finnedo01,Dorian Finney-Smith,BKN,BRK,2023-24,13932008.0
+203471,Dennis Schröder,schrode01,Dennis SchrÃ¶der,BKN,BRK,2023-24,12405000.0
+1629651,Nic Claxton,claxtni01,Nic Claxton,BKN,BRK,2023-24,9625000.0
+201152,Thaddeus Young,youngth01,Thaddeus Young,PHX,BRK,2023-24,8000000.0
+1641730,Noah Clowney,clownno01,Noah Clowney,BKN,BRK,2023-24,3089520.0
+1641727,Dariq Whitehead,whiteda01,Dariq Miller-Whitehead,BKN,BRK,2023-24,2966040.0
+1628966,Keita Bates-Diop,bateske01,Keita Bates-Diop,BKN,BRK,2023-24,2346614.0
+1630560,Cam Thomas,thomaca02,Cam Thomas,BKN,BRK,2023-24,2240160.0
+1630549,Day'Ron Sharpe,sharpda01,Day'Ron Sharpe,BKN,BRK,2023-24,2210040.0
+1628372,Dennis Smith Jr.,smithde03,Dennis Smith,BKN,BRK,2023-24,2019706.0
+1628385,Harry Giles III,gilesha01,Harry Giles,LAL,BRK,2023-24,2019706.0
+1630570,Trendon Watford,watfotr01,Trendon Watford,BKN,BRK,2023-24,2019706.0
+1629022,Lonnie Walker IV,walkelo01,Lonnie Walker,BKN,BRK,2023-24,2019706.0
+1630692,Jordan Goodwin,goodwjo01,Jordan Goodwin,MEM,BRK,2023-24,1927896.0
+1630592,Jalen Wilson,wilsoja03,Jalen Wilson,BKN,BRK,2023-24,850000.0
+1629717,Armoni Brooks,brookar01,Armoni Brooks,BKN,BRK,2023-24,
+1630553,Keon Johnson,johnske07,Keon Johnson,BKN,BRK,2023-24,
+1641798,Jaylen Martin,martija02,Jaylen Martin,BKN,BRK,2023-24,
+1631367,Jacob Gilyard,gilyaja01,Jacob Gilyard,BKN,BRK,2023-24,
+200768,Kyle Lowry,lowryky01,Kyle Lowry,PHI,CHO,2023-24,29682540.0
+202722,Dāvis Bertāns,bertada01,DÄvis BertÄns,CHA,CHO,2023-24,17000000.0
+1629684,Grant Williams,willigr01,Grant Williams,CHA,CHO,2023-24,12405000.0
+1630163,LaMelo Ball,ballla01,LaMelo Ball,CHA,CHO,2023-24,10900635.0
+1641706,Brandon Miller,millebr02,Brandon Miller,CHA,CHO,2023-24,10880400.0
+1628970,Miles Bridges,bridgmi02,Miles Bridges,CHA,CHO,2023-24,7921300.0
+203995,Vasilije Micić,micicva01,Vasilije MiciÄ,CHA,CHO,2023-24,7723000.0
+1628998,Cody Martin,martico01,Cody Martin,CHA,CHO,2023-24,7560000.0
+1630208,Nick Richards,richani01,Nick Richards,CHA,CHO,2023-24,5000000.0
+1630547,James Bouknight,bouknja01,James Bouknight,CHA,CHO,2023-24,4570080.0
+203552,Seth Curry,curryse01,Seth Curry,CHA,CHO,2023-24,4000000.0
+1631109,Mark Williams,willima07,Mark Williams,CHA,CHO,2023-24,3908160.0
+1630544,Tre Mann,manntr01,Tre Mann,CHA,CHO,2023-24,3191400.0
+1630539,Kai Jones,joneska01,Kai Jones,CHA,CHO,2023-24,3047880.0
+1641733,Nick Smith Jr.,smithni01,Nick Smith,CHA,CHO,2023-24,2463960.0
+1628373,Frank Ntilikina,ntilila01,Frank Ntilikina,CHA,CHO,2023-24,2019706.0
+202397,Ish Smith,smithis01,Ish Smith,CHA,CHO,2023-24,2019706.0
+1630550,JT Thor,thorjt01,JT Thor,CHA,CHO,2023-24,1836096.0
+1631121,Bryce McGowens,mcgowbr01,Bryce McGowens,CHA,CHO,2023-24,1719864.0
+1630197,Aleksej Pokusevski,pokusal01,Aleksej Pokusevski,CHA,CHO,2023-24,565176.0
+1629716,Marques Bolden,boldema01,Marques Bolden,CHA,CHO,2023-24,116075.0
+1641735,Amari Bailey,baileam01,Amari Bailey,CHA,CHO,2023-24,
+1641778,Leaky Black,blackle01,Leaky Black,CHA,CHO,2023-24,
+1641877,Nathan Mensah,mensana01,Nathan Mensah,CHA,CHO,2023-24,
+203897,Zach LaVine,lavinza01,Zach LaVine,CHI,CHI,2023-24,40064220.0
+201942,DeMar DeRozan,derozde01,DeMar DeRozan,CHI,CHI,2023-24,28600000.0
+1628366,Lonzo Ball,balllo01,Lonzo Ball,CHI,CHI,2023-24,20465117.0
+202696,Nikola Vučević,vucevni01,Nikola VuÄeviÄ,CHI,CHI,2023-24,18518519.0
+1629632,Coby White,whiteco01,Coby White,CHI,CHI,2023-24,11111111.0
+1630172,Patrick Williams,willipa01,Patrick Williams,CHI,CHI,2023-24,9835881.0
+1627936,Alex Caruso,carusal01,Alex Caruso,CHI,CHI,2023-24,9460000.0
+1630245,Ayo Dosunmu,dosunay01,Ayo Dosunmu,CHI,CHI,2023-24,6481482.0
+1628975,Jevon Carter,carteje01,Jevon Carter,CHI,CHI,2023-24,6190476.0
+1627884,Derrick Jones Jr.,jonesde02,Derrick Jones,DAL,CHI,2023-24,3360000.0
+203083,Andre Drummond,drumman01,Andre Drummond,CHI,CHI,2023-24,3360000.0
+1631207,Dalen Terry,terryda01,Dalen Terry,CHI,CHI,2023-24,3350760.0
+1628470,Torrey Craig,craigto01,Torrey Craig,CHI,CHI,2023-24,2528233.0
+1630678,Terry Taylor,taylote01,Terry Taylor,CHI,CHI,2023-24,2019706.0
+1641763,Julian Phillips,phillju01,Julian Phillips,CHI,CHI,2023-24,1600000.0
+1641931,Onuralp Bitim,bitimon01,Onuralp Bitim,CHI,CHI,2023-24,500000.0
+1629750,Javonte Green,greenja02,Javonte Green,CHI,CHI,2023-24,127683.0
+,未知,lewisju02,Justin Lewis,CHI,CHI,2023-24,
+1630929,Henri Drell,drellhe01,Henri Drell,CHI,CHI,2023-24,
+1641847,Andrew Funk,funkan01,Andrew Funk,CHI,CHI,2023-24,
+1641766,Adama Sanogo,sanogad01,Adama Sanogo,CHI,CHI,2023-24,
+1629636,Darius Garland,garlada01,Darius Garland,CLE,CLE,2023-24,34005250.0
+1628378,Donovan Mitchell,mitchdo01,Donovan Mitchell,CLE,CLE,2023-24,33162030.0
+1628386,Jarrett Allen,allenja01,Jarrett Allen,CLE,CLE,2023-24,20000000.0
+1627747,Caris LeVert,leverca01,Caris LeVert,CLE,CLE,2023-24,15384616.0
+1629622,Max Strus,strusma01,Max Strus,CLE,CLE,2023-24,14487684.0
+1630171,Isaac Okoro,okorois01,Isaac Okoro,CLE,CLE,2023-24,8920795.0
+1630596,Evan Mobley,mobleev01,Evan Mobley,CLE,CLE,2023-24,8882640.0
+1627777,Georges Niang,niangge01,Georges Niang,CLE,CLE,2023-24,8800000.0
+1629731,Dean Wade,wadede01,Dean Wade,CLE,CLE,2023-24,5709877.0
+201937,Ricky Rubio,rubiori01,Ricky Rubio,CLE,CLE,2023-24,3695311.0
+1627745,Damian Jones,jonesda03,Damian Jones,CLE,CLE,2023-24,2586665.0
+1629660,Ty Jerome,jeromty01,Ty Jerome,CLE,CLE,2023-24,2439025.0
+202684,Tristan Thompson,thomptr01,Tristan Thompson,CLE,CLE,2023-24,2019706.0
+1630241,Sam Merrill,merrisa01,Sam Merrill,CLE,CLE,2023-24,1997238.0
+1641854,Craig Porter Jr.,portecr01,Craig Porter,CLE,CLE,2023-24,1500000.0
+202694,Marcus Morris Sr.,morrima03,Marcus Morris,CLE,CLE,2023-24,197328.0
+1629015,Zhaire Smith,smithzh01,Zhaire Smith,CLE,CLE,2023-24,139290.0
+1630536,Sharife Cooper,coopesh01,Sharife Cooper,CLE,CLE,2023-24,103550.0
+1631250,Pete Nance,nancepe01,Pete Nance,CLE,CLE,2023-24,64343.0
+1630600,Isaiah Mobley,mobleis01,Isaiah Mobley,CLE,CLE,2023-24,
+1641734,Emoni Bates,batesem01,Emoni Bates,CLE,CLE,2023-24,
+1629029,Luka Dončić,doncilu01,Luka DonÄiÄ,DAL,DAL,2023-24,40064220.0
+202681,Kyrie Irving,irvinky01,Kyrie Irving,DAL,DAL,2023-24,37037037.0
+203501,Tim Hardaway Jr.,hardati02,Tim Hardaway,DAL,DAL,2023-24,17897728.0
+1629023,P.J. Washington,washipj01,P.J. Washington,DAL,DAL,2023-24,16847826.0
+1629655,Daniel Gafford,gaffoda01,Daniel Gafford,DAL,DAL,2023-24,12402000.0
+1628467,Maxi Kleber,klebima01,Maxi Kleber,DAL,DAL,2023-24,11000000.0
+1641726,Dereck Lively II,livelde01,Dereck Lively,DAL,DAL,2023-24,4775640.0
+1630182,Josh Green,greenjo02,Josh Green,DAL,DAL,2023-24,4765339.0
+203939,Dwight Powell,poweldw01,Dwight Powell,DAL,DAL,2023-24,4000000.0
+203957,Danté Exum,exumda01,Dante Exum,DAL,DAL,2023-24,3000000.0
+1641765,Olivier-Maxence Prosper,prospol01,Olivier-Maxence Prosper,DAL,DAL,2023-24,2733720.0
+201580,JaVale McGee,mcgeeja01,JaVale McGee,SAC,DAL,2023-24,2348324.0
+1627884,Derrick Jones Jr.,jonesde02,Derrick Jones,DAL,DAL,2023-24,2019706.0
+202693,Markieff Morris,morrima02,Markieff Morris,DAL,DAL,2023-24,2019706.0
+1630702,Jaden Hardy,hardyja02,Jaden Hardy,DAL,DAL,2023-24,1719864.0
+1630639,A.J. Lawson,lawsoaj01,A.J. Lawson,DAL,DAL,2023-24,1000000.0
+,未知,milesmi01,Mike Miles,DAL,DAL,2023-24,
+1630535,Greg Brown III,browngr01,Greg Brown,DAL,DAL,2023-24,
+1641926,Dexter Dennis,dennide01,Dexter Dennis,DAL,DAL,2023-24,
+1630314,Brandon Williams,willibr03,Brandon Williams,DAL,DAL,2023-24,
+1641788,Alex Fudge,fudgeal01,Alex Fudge,DAL,DAL,2023-24,
+203999,Nikola Jokić,jokicni01,Nikola JokiÄ,DEN,DEN,2023-24,47607350.0
+1627750,Jamal Murray,murraja01,Jamal Murray,DEN,DEN,2023-24,33833400.0
+1629008,Michael Porter Jr.,portemi01,Michael Porter,DEN,DEN,2023-24,33386850.0
+203932,Aaron Gordon,gordoaa01,Aaron Gordon,DEN,DEN,2023-24,22266182.0
+203484,Kentavious Caldwell-Pope,caldwke01,Kentavious Caldwell-Pope,DEN,DEN,2023-24,14704938.0
+202704,Reggie Jackson,jacksre01,Reggie Jackson,DEN,DEN,2023-24,5000000.0
+1630192,Zeke Nnaji,nnajize01,Zeke Nnaji,DEN,DEN,2023-24,4306281.0
+1631128,Christian Braun,braunch01,Christian Braun,DEN,DEN,2023-24,2949120.0
+1631124,Julian Strawther,strawju01,Julian Strawther,DEN,DEN,2023-24,2431080.0
+1631212,Peyton Watson,watsope01,Peyton Watson,DEN,DEN,2023-24,2303520.0
+1628427,Vlatko Čančar,cancavl01,Vlatko ÄanÄar,DEN,DEN,2023-24,2234359.0
+201599,DeAndre Jordan,jordade01,DeAndre Jordan,DEN,DEN,2023-24,2019706.0
+203200,Justin Holiday,holidju01,Justin Holiday,DEN,DEN,2023-24,2019706.0
+1629618,Jalen Pickett,pickeja02,Jalen Pickett,DEN,DEN,2023-24,1708143.0
+1641816,Hunter Tyson,tysonhu01,Hunter Tyson,DEN,DEN,2023-24,1119563.0
+1630296,Braxton Key,keybr01,Braxton Key,DEN,DEN,2023-24,
+1630643,Jay Huff,huffja01,Jay Huff,DEN,DEN,2023-24,
+1631221,Collin Gillespie,gilleco01,Collin Gillespie,DEN,DEN,2023-24,
+203925,Joe Harris,harrijo01,Joe Harris,DET,DET,2023-24,19928571.0
+203095,Evan Fournier,fournev01,Evan Fournier,DET,DET,2023-24,18857143.0
+1630164,James Wiseman,wisemja01,James Wiseman,DET,DET,2023-24,12119440.0
+1630595,Cade Cunningham,cunnica01,Cade Cunningham,DET,DET,2023-24,11055360.0
+1641709,Ausar Thompson,thompau01,Ausar Thompson,DET,DET,2023-24,7977480.0
+1631093,Jaden Ivey,iveyja01,Jaden Ivey,DET,DET,2023-24,7614480.0
+1630165,Killian Hayes,hayeski01,Killian Hayes,DET,DET,2023-24,7413955.0
+201568,Danilo Gallinari,gallida01,Danilo Gallinari,MIL,DET,2023-24,6802950.0
+1630191,Isaiah Stewart,stewais01,Isaiah Stewart,DET,DET,2023-24,5266713.0
+1629003,Shake Milton,miltosh01,Shake Milton,NYK,DET,2023-24,5000000.0
+1631105,Jalen Duren,durenja01,Jalen Duren,DET,DET,2023-24,4330680.0
+1627863,Danuel House Jr.,houseda01,Danuel House,PHI,DET,2023-24,4310250.0
+1628972,Troy Brown Jr.,browntr01,Troy Brown,DET,DET,2023-24,4000000.0
+1630201,Malachi Flynn,flynnma01,Malachi Flynn,DET,DET,2023-24,3873025.0
+203488,Mike Muscala,muscami01,Mike Muscala,OKC,DET,2023-24,3500000.0
+1631323,Simone Fontecchio,fontesi01,Simone Fontecchio,DET,DET,2023-24,3044872.0
+203473,Dewayne Dedmon,dedmode01,Dewayne Dedmon,DET,DET,2023-24,2748674.0
+1631204,Marcus Sasser,sassema01,Marcus Sasser,DET,DET,2023-24,2624040.0
+1629656,Quentin Grimes,grimequ01,Quentin Grimes,DET,DET,2023-24,2385720.0
+1627853,Ryan Arcidiacono,arcidry01,Ryan Arcidiacono,NYK,DET,2023-24,2019706.0
+1630649,Stanley Umude,umudest01,Stanley Umude,DET,DET,2023-24,538460.0
+201959,Taj Gibson,gibsota01,Taj Gibson,DET,DET,2023-24,348225.0
+1629002,Chimezie Metu,metuch01,Chimezie Metu,DET,DET,2023-24,215781.0
+1629669,Jaylen Nowell,nowelja01,Jaylen Nowell,DET,DET,2023-24,116075.0
+1641787,Tosan Evbuomwan,evbuoto01,Tosan Evbuomwan,DET,DET,2023-24,70777.0
+1631205,Buddy Boeheim,boehebu01,Buddy Boeheim,DET,DET,2023-24,
+1631197,Jared Rhoden,rhodeja01,Jared Rhoden,DET,DET,2023-24,
+1630608,Malcolm Cazalon,cazalma01,Malcolm Cazalon,DET,DET,2023-24,
+201939,Stephen Curry,curryst01,Stephen Curry,GSW,GSW,2023-24,51915615.0
+202691,Klay Thompson,thompkl01,Klay Thompson,GSW,GSW,2023-24,43219440.0
+101108,Chris Paul,paulch01,Chris Paul,GSW,GSW,2023-24,30800000.0
+203952,Andrew Wiggins,wiggian01,Andrew Wiggins,GSW,GSW,2023-24,24330357.0
+203110,Draymond Green,greendr01,Draymond Green,GSW,GSW,2023-24,22321429.0
+1627780,Gary Payton II,paytoga02,Gary Payton,GSW,GSW,2023-24,8715000.0
+1626172,Kevon Looney,looneke01,Kevon Looney,GSW,GSW,2023-24,7500000.0
+1630228,Jonathan Kuminga,kuminjo01,Jonathan Kuminga,GSW,GSW,2023-24,6012840.0
+1630541,Moses Moody,moodymo01,Moses Moody,GSW,GSW,2023-24,3918480.0
+1641764,Brandin Podziemski,podzibr01,Brandin Podziemski,GSW,GSW,2023-24,3352440.0
+203967,Dario Šarić,saricda01,Dario Å ariÄ,GSW,GSW,2023-24,2019706.0
+1631218,Trayce Jackson-Davis,jackstr02,Trayce Jackson-Davis,GSW,GSW,2023-24,1119563.0
+1630611,Gui Santos,santogu01,Gui Santos,GSW,GSW,2023-24,1029483.0
+1631311,Lester Quinones,quinole01,Lester Quinones,GSW,GSW,2023-24,548815.0
+1630586,Usman Garuba,garubus01,Usman Garuba,GSW,GSW,2023-24,11608.0
+1629010,Jerome Robinson,robinje01,Jerome Robinson,GSW,GSW,2023-24,
+1630311,Pat Spencer,spencpa01,Pat Spencer,GSW,GSW,2023-24,
+1627832,Fred VanVleet,vanvlfr01,Fred VanVleet,HOU,HOU,2023-24,40806300.0
+1628415,Dillon Brooks,brookdi01,Dillon Brooks,HOU,HOU,2023-24,22627671.0
+203500,Steven Adams,adamsst01,Steven Adams,HOU,HOU,2023-24,12600000.0
+1630224,Jalen Green,greenja05,Jalen Green,HOU,HOU,2023-24,9891480.0
+201145,Jeff Green,greenje02,Jeff Green,HOU,HOU,2023-24,9600000.0
+1631095,Jabari Smith Jr.,smithja05,Jabari Smith,HOU,HOU,2023-24,9326520.0
+1641708,Amen Thompson,thompam01,Amen Thompson,HOU,HOU,2023-24,8809320.0
+1629111,Jock Landale,landajo01,Jock Landale,HOU,HOU,2023-24,8000000.0
+202322,John Wall,walljo01,John Wall,HOU,HOU,2023-24,6802950.0
+1630256,Jae'Sean Tate,tateja01,Jae'Sean Tate,HOU,HOU,2023-24,6500000.0
+1630578,Alperen Sengun,sengual01,Alperen Sengun,HOU,HOU,2023-24,3536280.0
+1631106,Tari Eason,easonta01,Tari Eason,HOU,HOU,2023-24,3527160.0
+1641715,Cam Whitmore,whitmca01,Cam Whitmore,HOU,HOU,2023-24,3218160.0
+1628988,Aaron Holiday,holidaa01,Aaron Holiday,HOU,HOU,2023-24,2019706.0
+1626246,Boban Marjanović,marjabo01,Boban MarjanoviÄ,HOU,HOU,2023-24,2019706.0
+203493,Reggie Bullock Jr.,bullore01,Reggie Bullock,HOU,HOU,2023-24,2019706.0
+1630526,Jeremiah Robinson-Earl,robinje02,Jeremiah Robinson-Earl,NOP,HOU,2023-24,1900000.0
+1630620,Darius Days,daysda01,Darius Days,HOU,HOU,2023-24,
+1631309,Trevor Hudgins,hudgitr01,Trevor Hudgins,HOU,HOU,2023-24,
+1631257,Jermaine Samuels Jr.,samueje01,Jermaine Samuels,HOU,HOU,2023-24,
+1631466,Nate Williams,willije02,Jeenathan Williams,HOU,HOU,2023-24,
+1630207,Nate Hinton,hintona01,Nate Hinton,HOU,HOU,2023-24,
+1627783,Pascal Siakam,siakapa01,Pascal Siakam,IND,IND,2023-24,37893408.0
+1626167,Myles Turner,turnemy01,Myles Turner,IND,IND,2023-24,20975000.0
+203926,Doug McDermott,mcderdo01,Doug McDermott,IND,IND,2023-24,13750000.0
+204456,T.J. McConnell,mccontj01,T.J. McConnell,IND,IND,2023-24,8700000.0
+1628464,Daniel Theis,theisda01,Daniel Theis,LAC,IND,2023-24,6928876.0
+1631097,Bennedict Mathurin,mathube01,Bennedict Mathurin,IND,IND,2023-24,6916080.0
+1630167,Obi Toppin,toppiob01,Obi Toppin,IND,IND,2023-24,6803012.0
+1641716,Jarace Walker,walkeja02,Jarace Walker,IND,IND,2023-24,6059520.0
+1630169,Tyrese Haliburton,halibty01,Tyrese Haliburton,IND,IND,2023-24,5808435.0
+1630174,Aaron Nesmith,nesmiaa01,Aaron Nesmith,IND,IND,2023-24,5634257.0
+1627788,Furkan Korkmaz,korkmfu01,Furkan Korkmaz,PHI,IND,2023-24,5370370.0
+1630188,Jalen Smith,smithja04,Jalen Smith,IND,IND,2023-24,5043773.0
+1630543,Isaiah Jackson,jacksis01,Isaiah Jackson,IND,IND,2023-24,2696280.0
+1641767,Ben Sheppard,sheppbe01,Ben Sheppard,IND,IND,2023-24,2537160.0
+201949,James Johnson,johnsja01,James Johnson,IND,IND,2023-24,2241188.0
+1629614,Andrew Nembhard,nembhan01,Andrew Nembhard,IND,IND,2023-24,2131905.0
+202709,Cory Joseph,josepco01,Cory Joseph,GSW,IND,2023-24,2019706.0
+1631112,Kendall Brown,brownke03,Kendall Brown,IND,IND,2023-24,1100000.0
+203917,Nik Stauskas,stausni01,Nik Stauskas,IND,IND,2023-24,702311.0
+1629752,Juwan Morgan,morgaju01,Juwan Morgan,IND,IND,2023-24,576230.0
+1630238,Malik Fitts,fittsma01,Malik Fitts,IND,IND,2023-24,555217.0
+1631209,Isaiah Wong,wongis01,Isaiah Wong,IND,IND,2023-24,
+1631131,Oscar Tshiebwe,tshieos01,Oscar Tshiebwe,IND,IND,2023-24,
+1631245,Quenton Jackson,jacksqu01,Quenton Jackson,IND,IND,2023-24,
+202695,Kawhi Leonard,leonaka01,Kawhi Leonard,LAC,LAC,2023-24,45640084.0
+202331,Paul George,georgpa01,Paul George,LAC,LAC,2023-24,45640084.0
+201935,James Harden,hardeja01,James Harden,LAC,LAC,2023-24,35680595.0
+1626181,Norman Powell,powelno01,Norman Powell,LAC,LAC,2023-24,18000000.0
+200782,P.J. Tucker,tuckepj01,P.J. Tucker,LAC,LAC,2023-24,11014500.0
+1627826,Ivica Zubac,zubaciv01,Ivica Zubac,LAC,LAC,2023-24,10933333.0
+1629611,Terance Mann,mannte01,Terance Mann,LAC,LAC,2023-24,10576923.0
+203486,Mason Plumlee,plumlma01,Mason Plumlee,LAC,LAC,2023-24,5000000.0
+201566,Russell Westbrook,westbru01,Russell Westbrook,LAC,LAC,2023-24,3835738.0
+1629599,Amir Coffey,coffeam01,Amir Coffey,LAC,LAC,2023-24,3666667.0
+1641738,Kobe Brown,brownko01,Kobe Brown,LAC,LAC,2023-24,2413320.0
+1630538,Bones Hyland,hylanbo01,Bones Hyland,LAC,LAC,2023-24,2306400.0
+1630527,Brandon Boston,bostobr01,Brandon Boston,LAC,LAC,2023-24,1836096.0
+1630563,Joshua Primo,primojo01,Joshua Primo,LAC,LAC,2023-24,1764341.0
+1628464,Daniel Theis,theisda01,Daniel Theis,LAC,LAC,2023-24,1741126.0
+1630539,Kai Jones,joneska01,Kai Jones,LAC,LAC,2023-24,11608.0
+1631217,Moussa Diabaté,diabamo01,Moussa DiabatÃ©,LAC,LAC,2023-24,
+1641757,Jordan Miller,millejo02,Jordan Miller,LAC,LAC,2023-24,
+1629875,Xavier Moon,moonxa01,Xavier Moon,LAC,LAC,2023-24,
+2544,LeBron James,jamesle01,LeBron James,LAL,LAL,2023-24,47607350.0
+203076,Anthony Davis,davisan02,Anthony Davis,LAL,LAL,2023-24,40600080.0
+1626156,D'Angelo Russell,russeda01,D'Angelo Russell,LAL,LAL,2023-24,17307693.0
+1629060,Rui Hachimura,hachiru01,Rui Hachimura,LAL,LAL,2023-24,15740741.0
+1630559,Austin Reaves,reaveau01,Austin Reaves,LAL,LAL,2023-24,12015150.0
+1629216,Gabe Vincent,vincega01,Gabe Vincent,LAL,LAL,2023-24,10500000.0
+1629020,Jarred Vanderbilt,vandeja01,Jarred Vanderbilt,LAL,LAL,2023-24,4698000.0
+1627752,Taurean Prince,princta02,Taurean Prince,LAL,LAL,2023-24,4516000.0
+1641720,Jalen Hood-Schifino,hoodsja01,Jalen Hood-Schifino,LAL,LAL,2023-24,3695040.0
+1626174,Christian Wood,woodch01,Christian Wood,LAL,LAL,2023-24,2709849.0
+1629637,Jaxson Hayes,hayesja02,Jaxson Hayes,LAL,LAL,2023-24,2165000.0
+1629629,Cam Reddish,reddica01,Cam Reddish,LAL,LAL,2023-24,2165000.0
+1631108,Max Christie,chrisma02,Max Christie,LAL,LAL,2023-24,1719864.0
+203915,Spencer Dinwiddie,dinwisp01,Spencer Dinwiddie,LAL,LAL,2023-24,1554654.0
+1641721,Maxwell Lewis,lewisma05,Maxwell Lewis,LAL,LAL,2023-24,1119563.0
+1630658,Colin Castleton,castlco01,Colin Castleton,LAL,LAL,2023-24,
+1641793,D'Moi Hodge,hodgedm01,D'Moi Hodge,LAL,LAL,2023-24,
+1641788,Alex Fudge,fudgeal01,Alex Fudge,DAL,LAL,2023-24,
+1629685,Dylan Windler,windldy01,Dylan Windler,ATL,LAL,2023-24,
+1630219,Skylar Mays,mayssk01,Skylar Mays,LAL,LAL,2023-24,
+1628385,Harry Giles III,gilesha01,Harry Giles,LAL,LAL,2023-24,
+1629630,Ja Morant,moranja01,Ja Morant,MEM,MEM,2023-24,34005250.0
+1628991,Jaren Jackson Jr.,jacksja02,Jaren Jackson,MEM,MEM,2023-24,27102202.0
+203935,Marcus Smart,smartma01,Marcus Smart,MEM,MEM,2023-24,18833713.0
+1628379,Luke Kennard,kennalu01,Luke Kennard,MEM,MEM,2023-24,14763636.0
+1629634,Brandon Clarke,clarkbr01,Brandon Clarke,MEM,MEM,2023-24,12500000.0
+203506,Victor Oladipo,oladivi01,Victor Oladipo,MEM,MEM,2023-24,9450000.0
+202687,Bismack Biyombo,biyombi01,Bismack Biyombo,OKC,MEM,2023-24,5000000.0
+1630533,Ziaire Williams,willizi02,Ziaire Williams,MEM,MEM,2023-24,4810200.0
+1630217,Desmond Bane,banede01,Desmond Bane,MEM,MEM,2023-24,3845083.0
+1631222,Jake LaRavia,laravja01,Jake LaRavia,MEM,MEM,2023-24,3199920.0
+201565,Derrick Rose,rosede01,Derrick Rose,MEM,MEM,2023-24,3196448.0
+1630528,Josh Christopher,chrisjo01,Josh Christopher,MEM,MEM,2023-24,2485200.0
+1629723,John Konchar,konchjo01,John Konchar,MEM,MEM,2023-24,2400000.0
+1629139,Yuta Watanabe,watanyu01,Yuta Watanabe,MEM,MEM,2023-24,2346614.0
+1631246,Vince Williams Jr.,willivi01,Vince Williams,MEM,MEM,2023-24,2232308.0
+1630583,Santi Aldama,aldamsa01,Santi Aldama,MEM,MEM,2023-24,2194200.0
+1629002,Chimezie Metu,metuch01,Chimezie Metu,DET,MEM,2023-24,2019706.0
+1630205,Lamar Stevens,stevela01,Lamar Stevens,MEM,MEM,2023-24,2019706.0
+1641713,GG Jackson,jacksgg01,Gregory Jackson,MEM,MEM,2023-24,1991428.0
+1630225,Isaiah Todd,toddis01,Isaiah Todd,MEM,MEM,2023-24,1836096.0
+1631113,Kennedy Chandler,chandke01,Kennedy Chandler,MEM,MEM,2023-24,1719864.0
+1631254,Kenneth Lofton Jr.,loftoke01,Kenneth Lofton,UTA,MEM,2023-24,1719864.0
+1629117,Wenyen Gabriel,gabriwe01,Wenyen Gabriel,MEM,MEM,2023-24,116075.0
+1627885,Shaquille Harrison,harrish01,Shaquille Harrison,MEM,MEM,2023-24,116075.0
+1630692,Jordan Goodwin,goodwjo01,Jordan Goodwin,MEM,MEM,2023-24,116075.0
+1629669,Jaylen Nowell,nowelja01,Jaylen Nowell,DET,MEM,2023-24,116075.0
+1630285,Zavier Simpson,simpsza01,Zavier Simpson,MEM,MEM,2023-24,103550.0
+1630610,DeJon Jarreau,jarrede01,DeJon Jarreau,MEM,MEM,2023-24,103550.0
+1641970,Maozinha Pereira,pereima01,MÃ£ozinha Pereira,MEM,MEM,2023-24,64343.0
+1630562,Matt Hurt,hurtma01,Matthew Hurt,MEM,MEM,2023-24,64343.0
+1641998,Trey Jemison III,jemistr01,Trey Jemison,MEM,MEM,2023-24,64343.0
+1641787,Tosan Evbuomwan,evbuoto01,Tosan Evbuomwan,DET,MEM,2023-24,64343.0
+1631298,Jack White,whiteja03,Jack White,MEM,MEM,2023-24,62130.0
+1641851,Timmy Allen,allenti01,Timmy Allen,MEM,MEM,2023-24,57908.0
+1630590,Scotty Pippen Jr.,pippesc02,Scotty Pippen,MEM,MEM,2023-24,
+1631367,Jacob Gilyard,gilyaja01,Jacob Gilyard,BKN,MEM,2023-24,
+202710,Jimmy Butler III,butleji01,Jimmy Butler,MIA,MIA,2023-24,45183960.0
+1628389,Bam Adebayo,adebaba01,Bam Adebayo,MIA,MIA,2023-24,32600060.0
+1629639,Tyler Herro,herroty01,Tyler Herro,MIA,MIA,2023-24,27000000.0
+1626179,Terry Rozier,roziete01,Terry Rozier,MIA,MIA,2023-24,23205221.0
+1629130,Duncan Robinson,robindu01,Duncan Robinson,MIA,MIA,2023-24,18154000.0
+1628997,Caleb Martin,martica02,Caleb Martin,MIA,MIA,2023-24,6802950.0
+201567,Kevin Love,loveke01,Kevin Love,MIA,MIA,2023-24,3835738.0
+1631170,Jaime Jaquez Jr.,jaqueja01,Jaime Jaquez,MIA,MIA,2023-24,3510600.0
+1626196,Josh Richardson,richajo01,Josh Richardson,MIA,MIA,2023-24,2891467.0
+1628418,Thomas Bryant,bryanth01,Thomas Bryant,MIA,MIA,2023-24,2528233.0
+1631107,Nikola Jović,jovicni01,Nikola JoviÄ,MIA,MIA,2023-24,2352000.0
+1629312,Haywood Highsmith,highsha01,Haywood Highsmith,MIA,MIA,2023-24,1902137.0
+1630696,Dru Smith,smithdr01,Dru Smith,MIA,MIA,2023-24,1801769.0
+1631115,Orlando Robinson,robinor01,Orlando Robinson,MIA,MIA,2023-24,1801769.0
+1626153,Delon Wright,wrighde01,Delon Wright,MIA,MIA,2023-24,661628.0
+201988,Patty Mills,millspa02,Patty Mills,MIA,MIA,2023-24,464300.0
+1631123,Jamaree Bouyea,bouyeja01,Jamaree Bouyea,SAS,MIA,2023-24,
+1631288,Jamal Cain,cainja01,Jamal Cain,MIA,MIA,2023-24,
+1631306,Cole Swider,swideco01,Cole Swider,MIA,MIA,2023-24,
+1630181,R.J. Hampton,hamptrj01,R.J. Hampton,MIA,MIA,2023-24,
+1631214,Alondes Williams,willial06,Alondes Williams,MIA,MIA,2023-24,
+203507,Giannis Antetokounmpo,antetgi01,Giannis Antetokounmpo,MIL,MIL,2023-24,45640084.0
+203081,Damian Lillard,lillada01,Damian Lillard,MIL,MIL,2023-24,45640084.0
+203114,Khris Middleton,middlkh01,Khris Middleton,MIL,MIL,2023-24,29320988.0
+201572,Brook Lopez,lopezbr01,Brook Lopez,MIL,MIL,2023-24,25000000.0
+1626171,Bobby Portis,portibo01,Bobby Portis,MIL,MIL,2023-24,11710818.0
+1626192,Pat Connaughton,connapa01,Pat Connaughton,MIL,MIL,2023-24,9423869.0
+1630699,MarJon Beauchamp,beaucma01,MarJon Beauchamp,MIL,MIL,2023-24,2609400.0
+1627736,Malik Beasley,beaslma01,Malik Beasley,MIL,MIL,2023-24,2019706.0
+203648,Thanasis Antetokounmpo,antetth01,Thanasis Antetokounmpo,MIL,MIL,2023-24,2019706.0
+203109,Jae Crowder,crowdja01,Jae Crowder,MIL,MIL,2023-24,2019706.0
+201976,Patrick Beverley,beverpa01,Patrick Beverley,MIL,MIL,2023-24,2019706.0
+1631260,AJ Green,greenaj01,A.J. Green,MIL,MIL,2023-24,1901769.0
+1641753,Chris Livingston,livinch01,Chris Livingston,MIL,MIL,2023-24,1119563.0
+1641748,Andre Jackson Jr.,jacksan01,Andre Jackson,MIL,MIL,2023-24,1119563.0
+201568,Danilo Gallinari,gallida01,Danilo Gallinari,MIL,MIL,2023-24,661628.0
+1631102,TyTy Washington Jr.,washity02,TyTy Washington,MIL,MIL,2023-24,
+1629716,Marques Bolden,boldema01,Marques Bolden,CHA,MIL,2023-24,
+1629623,Lindell Wigginton,wiggili01,Lindell Wigginton,MIL,MIL,2023-24,
+1631157,Ryan Rollins,rolliry01,Ryan Rollins,MIL,MIL,2023-24,
+,未知,galloja01,Jaylin Galloway,MIL,MIL,2023-24,
+203497,Rudy Gobert,goberru01,Rudy Gobert,MIN,MIN,2023-24,41000000.0
+1626157,Karl-Anthony Towns,townska01,Karl-Anthony Towns,MIN,MIN,2023-24,36016200.0
+201144,Mike Conley,conlemi01,Mike Conley,MIN,MIN,2023-24,24360000.0
+1630162,Anthony Edwards,edwaran01,Anthony Edwards,MIN,MIN,2023-24,13534817.0
+1629675,Naz Reid,reidna01,Naz Reid,MIN,MIN,2023-24,12950400.0
+1628420,Monté Morris,morrimo01,Monte Morris,MIN,MIN,2023-24,9800926.0
+203937,Kyle Anderson,anderky01,Kyle Anderson,MIN,MIN,2023-24,9219512.0
+1629638,Nickeil Alexander-Walker,alexani01,Nickeil Alexander-Walker,MIN,MIN,2023-24,4687500.0
+1630183,Jaden McDaniels,mcdanja02,Jaden McDaniels,MIN,MIN,2023-24,3901399.0
+1631111,Wendell Moore Jr.,moorewe01,Wendell Moore,MIN,MIN,2023-24,2421720.0
+1629162,Jordan McLaughlin,mclaujo01,Jordan McLaughlin,MIN,MIN,2023-24,2320000.0
+1631159,Leonard Miller,millele01,Leonard Miller,MIN,MIN,2023-24,1800000.0
+1631169,Josh Minott,minotjo01,Josh Minott,MIN,MIN,2023-24,1719864.0
+203933,T.J. Warren,warretj01,T.J. Warren,MIN,MIN,2023-24,220543.0
+1630568,Luka Garza,garzalu01,Luka Garza,MIN,MIN,2023-24,127683.0
+1628382,Justin Jackson,jacksju01,Justin Jackson,MIN,MIN,2023-24,116075.0
+1641740,Jaylen Clark,clarkja02,Jaylen Clark,MIN,MIN,2023-24,
+1630227,Daishen Nix,nixda01,Daishen Nix,MIN,MIN,2023-24,
+203468,CJ McCollum,mccolcj01,CJ McCollum,NOP,NOP,2023-24,35802469.0
+1629627,Zion Williamson,willizi01,Zion Williamson,NOP,NOP,2023-24,34005250.0
+1627742,Brandon Ingram,ingrabr01,Brandon Ingram,NOP,NOP,2023-24,33833400.0
+202685,Jonas Valančiūnas,valanjo01,Jonas ValanÄiÅ«nas,NOP,NOP,2023-24,15435000.0
+1630529,Herbert Jones,joneshe01,Herbert Jones,NOP,NOP,2023-24,12015150.0
+1626204,Larry Nance Jr.,nancela02,Larry Nance,NOP,NOP,2023-24,10375000.0
+1630700,Dyson Daniels,daniedy01,Dyson Daniels,NOP,NOP,2023-24,5784120.0
+1641722,Jordan Hawkins,hawkijo01,Jordan Hawkins,NOP,NOP,2023-24,4310160.0
+1630530,Trey Murphy III,murphtr02,Trey Murphy,NOP,NOP,2023-24,3359280.0
+203469,Cody Zeller,zelleco01,Cody Zeller,NOP,NOP,2023-24,2019706.0
+1630230,Naji Marshall,marshna01,Naji Marshall,NOP,NOP,2023-24,1930681.0
+1630631,Jose Alvarado,alvarjo01,Jose Alvarado,NOP,NOP,2023-24,1836096.0
+1630604,E.J. Liddell,liddeej01,E.J. Liddell,NOP,NOP,2023-24,1801769.0
+1630346,Matt Ryan,ryanma01,Matt Ryan,NOP,NOP,2023-24,1500000.0
+1630526,Jeremiah Robinson-Earl,robinje02,Jeremiah Robinson-Earl,NOP,NOP,2023-24,684843.0
+1630792,Malcolm Hill,hillma01,Malcolm Hill,NOP,NOP,2023-24,116075.0
+1630622,Jalen Crutcher,crutcja01,Jalen Crutcher,NOP,NOP,2023-24,64343.0
+1631167,Izaiah Brockington,brockiz01,Izaiah Brockington,NOP,NOP,2023-24,64343.0
+1629232,Kaiser Gates,gateska01,Kaiser Gates,NOP,NOP,2023-24,
+1631220,Dereon Seabron,seabrde01,Dereon Seabron,NOP,NOP,2023-24,
+203944,Julius Randle,randlju01,Julius Randle,NYK,NYK,2023-24,28226880.0
+1628973,Jalen Brunson,brunsja01,Jalen Brunson,NYK,NYK,2023-24,26346666.0
+202711,Bojan Bogdanović,bogdabo02,Bojan BogdanoviÄ,NYK,NYK,2023-24,20000000.0
+1628384,OG Anunoby,anunoog01,OG Anunoby,NYK,NYK,2023-24,18642857.0
+1629011,Mitchell Robinson,robinmi01,Mitchell Robinson,NYK,NYK,2023-24,15681818.0
+1628404,Josh Hart,hartjo01,Josh Hart,NYK,NYK,2023-24,12960000.0
+1628978,Donte DiVincenzo,divindo01,Donte DiVincenzo,NYK,NYK,2023-24,10900000.0
+202692,Alec Burks,burksal01,Alec Burks,NYK,NYK,2023-24,10489600.0
+1628392,Isaiah Hartenstein,harteis01,Isaiah Hartenstein,NYK,NYK,2023-24,9245121.0
+1630173,Precious Achiuwa,achiupr01,Precious Achiuwa,NYK,NYK,2023-24,4379527.0
+1629685,Dylan Windler,windldy01,Dylan Windler,ATL,NYK,2023-24,2019706.0
+1630579,Jericho Sims,simsje01,Jericho Sims,NYK,NYK,2023-24,1927896.0
+1630540,Miles McBride,mcbrimi01,Miles McBride,NYK,NYK,2023-24,1836096.0
+1629610,DaQuan Jeffries,jeffrda01,DaQuan Jeffries,NYK,NYK,2023-24,831385.0
+201959,Taj Gibson,gibsota01,Taj Gibson,DET,NYK,2023-24,477630.0
+1629003,Shake Milton,miltosh01,Shake Milton,NYK,NYK,2023-24,475908.0
+1629603,Mamadi Diakite,diakima01,Mamadi Diakite,NYK,NYK,2023-24,252525.0
+1631210,Jacob Toppin,toppija01,Jacob Toppin,NYK,NYK,2023-24,64343.0
+1630613,Duane Washington Jr.,washidu02,Duane Washington,NYK,NYK,2023-24,
+1631376,Dmytro Skapintsev,skapidm01,Dmytro Skapintsev,NYK,NYK,2023-24,
+1641798,Jaylen Martin,martija02,Jaylen Martin,NYK,NYK,2023-24,
+1629718,Charlie Brown Jr.,brownch02,Charlie Brown,NYK,NYK,2023-24,
+1630233,Nathan Knight,knighna01,Nathan Knight,NYK,NYK,2023-24,
+1628983,Shai Gilgeous-Alexander,gilgesh01,Shai Gilgeous-Alexander,OKC,OKC,2023-24,33386850.0
+202330,Gordon Hayward,haywago01,Gordon Hayward,OKC,OKC,2023-24,33319397.0
+1629645,Kevin Porter Jr.,porteke02,Kevin Porter,OKC,OKC,2023-24,15860000.0
+1629652,Luguentz Dort,dortlu01,Luguentz Dort,OKC,OKC,2023-24,15277778.0
+1631096,Chet Holmgren,holmgch01,Chet Holmgren,OKC,OKC,2023-24,10386000.0
+1630581,Josh Giddey,giddejo01,Josh Giddey,OKC,OKC,2023-24,6587040.0
+200752,Rudy Gay,gayru01,Rudy Gay,OKC,OKC,2023-24,6479000.0
+1629026,Kenrich Williams,willike04,Kenrich Williams,OKC,OKC,2023-24,6175000.0
+1641717,Cason Wallace,wallaca01,Cason Wallace,OKC,OKC,2023-24,5291400.0
+1630197,Aleksej Pokusevski,pokusal01,Aleksej Pokusevski,CHA,OKC,2023-24,5009633.0
+1631172,Ousmane Dieng,diengou01,Ousmane Dieng,OKC,OKC,2023-24,4798440.0
+1631114,Jalen Williams,willija06,Jalen Williams,OKC,OKC,2023-24,4558680.0
+1630586,Usman Garuba,garubus01,Usman Garuba,GSW,OKC,2023-24,2588400.0
+1631102,TyTy Washington Jr.,washity02,TyTy Washington,MIL,OKC,2023-24,2320440.0
+1631119,Jaylin Williams,willija07,Jaylin Williams,OKC,OKC,2023-24,2000000.0
+1630198,Isaiah Joe,joeis01,Isaiah Joe,OKC,OKC,2023-24,1997238.0
+1630598,Aaron Wiggins,wiggiaa01,Aaron Wiggins,OKC,OKC,2023-24,1836096.0
+1630322,Lindy Waters III,waterli01,Lindy Waters,OKC,OKC,2023-24,766095.0
+202687,Bismack Biyombo,biyombi01,Bismack Biyombo,OKC,OKC,2023-24,754488.0
+1631298,Jack White,whiteja03,Jack White,MEM,OKC,2023-24,600000.0
+203488,Mike Muscala,muscami01,Mike Muscala,OKC,OKC,2023-24,510730.0
+1641749,Keyontae Johnson,johnske08,Keyontae Johnson,OKC,OKC,2023-24,
+1630846,Olivier Sarr,sarrol01,Olivier Sarr,OKC,OKC,2023-24,
+1641745,Adam Flagler,flaglad01,Adam Flagler,OKC,OKC,2023-24,
+1628371,Jonathan Isaac,isaacjo01,Jonathan Isaac,ORL,ORL,2023-24,17400000.0
+1628365,Markelle Fultz,fultzma01,Markelle Fultz,ORL,ORL,2023-24,17000000.0
+1628976,Wendell Carter Jr.,cartewe01,Wendell Carter,ORL,ORL,2023-24,13050000.0
+203914,Gary Harris,harriga01,Gary Harris,ORL,ORL,2023-24,13000000.0
+1631094,Paolo Banchero,banchpa01,Paolo Banchero,ORL,ORL,2023-24,11608080.0
+204060,Joe Ingles,inglejo01,Joe Ingles,ORL,ORL,2023-24,11000000.0
+1629021,Moritz Wagner,wagnemo01,Moritz Wagner,ORL,ORL,2023-24,8000000.0
+1630591,Jalen Suggs,suggsja01,Jalen Suggs,ORL,ORL,2023-24,7252080.0
+1641710,Anthony Black,blackan01,Anthony Black,ORL,ORL,2023-24,7245480.0
+1630175,Cole Anthony,anthoco01,Cole Anthony,ORL,ORL,2023-24,5539771.0
+1630532,Franz Wagner,wagnefr01,Franz Wagner,ORL,ORL,2023-24,5508720.0
+1629643,Chuma Okeke,okekech01,Chuma Okeke,ORL,ORL,2023-24,5266713.0
+1641724,Jett Howard,howarje01,Jett Howard,ORL,ORL,2023-24,5026800.0
+1629048,Goga Bitadze,bitadgo01,Goga Bitadze,ORL,ORL,2023-24,2066585.0
+1631216,Caleb Houstan,houstca01,Caleb Houstan,ORL,ORL,2023-24,2000000.0
+1629678,Admiral Schofield,schofad01,Admiral Schofield,ORL,ORL,2023-24,
+1630243,Trevelin Queen,queentr01,Trevelin Queen,ORL,ORL,2023-24,
+1630284,Kevon Harris,harrike01,Kevon Harris,ORL,ORL,2023-24,
+203954,Joel Embiid,embiijo01,Joel Embiid,PHI,PHI,2023-24,47607350.0
+202699,Tobias Harris,harrito02,Tobias Harris,PHI,PHI,2023-24,39270150.0
+1627741,Buddy Hield,hieldbu01,Buddy Hield,PHI,PHI,2023-24,19845098.0
+201587,Nicolas Batum,batumni01,Nicolas Batum,PHI,PHI,2023-24,11710818.0
+203496,Robert Covington,covinro01,Robert Covington,PHI,PHI,2023-24,11692308.0
+1629001,De'Anthony Melton,meltode01,De'Anthony Melton,PHI,PHI,2023-24,8000000.0
+1630194,Paul Reed,reedpa01,Paul Reed,PHI,PHI,2023-24,7723000.0
+1630178,Tyrese Maxey,maxeyty01,Tyrese Maxey,PHI,PHI,2023-24,4343920.0
+200768,Kyle Lowry,lowryky01,Kyle Lowry,PHI,PHI,2023-24,2795839.0
+1630288,Jeff Dowtin Jr.,dowtije01,Jeff Dowtin,PHI,PHI,2023-24,2196970.0
+1628964,Mo Bamba,bambamo01,Mohamed Bamba,PHI,PHI,2023-24,2019706.0
+1626149,Montrezl Harrell,harremo01,Montrezl Harrell,PHI,PHI,2023-24,2019706.0
+1626166,Cameron Payne,payneca01,Cameron Payne,PHI,PHI,2023-24,2019706.0
+1626162,Kelly Oubre Jr.,oubreke01,Kelly Oubre,PHI,PHI,2023-24,2019706.0
+1630231,KJ Martin,martike04,KJ Martin,PHI,PHI,2023-24,1930681.0
+1641741,Ricky Council IV,councri01,Ricky Council,PHI,PHI,2023-24,864353.0
+201980,Danny Green,greenda02,Danny Green,PHI,PHI,2023-24,200000.0
+1629647,Darius Bazley,bazleda01,Darius Bazley,UTA,PHI,2023-24,116075.0
+1630539,Kai Jones,joneska01,Kai Jones,PHI,PHI,2023-24,116075.0
+1628391,D.J. Wilson,wilsodj01,D.J. Wilson,PHI,PHI,2023-24,116075.0
+1631254,Kenneth Lofton Jr.,loftoke01,Kenneth Lofton,UTA,PHI,2023-24,
+1630606,Javonte Smart,smartja01,Javonte Smart,PHI,PHI,2023-24,
+1631173,Terquavion Smith,smithte01,Terquavion Smith,PHI,PHI,2023-24,
+201142,Kevin Durant,duranke01,Kevin Durant,PHX,PHO,2023-24,47649433.0
+203078,Bradley Beal,bealbr01,Bradley Beal,PHX,PHO,2023-24,46741590.0
+1626164,Devin Booker,bookede01,Devin Booker,PHX,PHO,2023-24,36016200.0
+203994,Jusuf Nurkić,nurkiju01,Jusuf NurkiÄ,PHX,PHO,2023-24,16875000.0
+1626220,Royce O'Neale,onealro01,Royce O'Neale,PHX,PHO,2023-24,9500000.0
+1628960,Grayson Allen,allengr01,Grayson Allen,PHX,PHO,2023-24,8925000.0
+1629642,Nassir Little,littlna01,Nassir Little,PHX,PHO,2023-24,6250000.0
+201569,Eric Gordon,gordoer01,Eric Gordon,PHX,PHO,2023-24,3196448.0
+1629006,Josh Okogie,okogijo01,Josh Okogie,PHX,PHO,2023-24,2815937.0
+1630553,Keon Johnson,johnske07,Keon Johnson,BKN,PHO,2023-24,2808720.0
+1631223,David Roddy,roddyda01,David Roddy,PHX,PHO,2023-24,2718240.0
+1627814,Damion Lee,leeda03,Damion Lee,PHX,PHO,2023-24,2528233.0
+1629234,Drew Eubanks,eubandr01,Drew Eubanks,PHX,PHO,2023-24,2346614.0
+1629626,Bol Bol,bolbo01,Bol Bol,PHX,PHO,2023-24,2019706.0
+201152,Thaddeus Young,youngth01,Thaddeus Young,PHX,PHO,2023-24,638413.0
+202738,Isaiah Thomas,thomais02,Isaiah Thomas,PHX,PHO,2023-24,116075.0
+1630240,Saben Lee,leesa01,Saben Lee,PHX,PHO,2023-24,
+1628962,Udoka Azubuike,azubuud01,Udoka Azubuike,PHX,PHO,2023-24,
+1630177,Theo Maledon,maledth01,ThÃ©o Maledon,PHX,PHO,2023-24,
+1630688,Ish Wainright,wainris01,Ish Wainright,PHX,PHO,2023-24,
+1629028,Deandre Ayton,aytonde01,Deandre Ayton,POR,POR,2023-24,32459438.0
+203924,Jerami Grant,grantje01,Jerami Grant,POR,POR,2023-24,27586207.0
+1629014,Anfernee Simons,simonan01,Anfernee Simons,POR,POR,2023-24,24107143.0
+1627763,Malcolm Brogdon,brogdma01,Malcolm Brogdon,POR,POR,2023-24,22500000.0
+1629057,Robert Williams III,williro04,Robert Williams,POR,POR,2023-24,11571429.0
+1629680,Matisse Thybulle,thybuma01,Matisse Thybulle,POR,POR,2023-24,10500000.0
+1630703,Scoot Henderson,hendesc01,Scoot Henderson,POR,POR,2023-24,9770880.0
+1631101,Shaedon Sharpe,sharpsh01,Shaedon Sharpe,POR,POR,2023-24,6313800.0
+1631200,Kris Murray,murrakr01,Kris Murray,POR,POR,2023-24,2847480.0
+203094,Andrew Nicholson,nichoan01,Andrew Nicholson,POR,POR,2023-24,2844430.0
+1630625,Dalano Banton,bantoda01,Dalano Banton,POR,POR,2023-24,2019706.0
+1629650,Moses Brown,brownmo01,Moses Brown,POR,POR,2023-24,2019706.0
+1641871,Duop Reath,reathdu01,Duop Reath,POR,POR,2023-24,1951220.0
+1630688,Ish Wainright,wainris01,Ish Wainright,PHX,POR,2023-24,1927896.0
+1630219,Skylar Mays,mayssk01,Skylar Mays,LAL,POR,2023-24,1799163.0
+1631133,Jabari Walker,walkeja01,Jabari Walker,POR,POR,2023-24,1719864.0
+202339,Eric Bledsoe,bledser01,Eric Bledsoe,POR,POR,2023-24,1300000.0
+1641712,Rayan Rupert,ruperra01,Rayan Rupert,POR,POR,2023-24,1119563.0
+1641739,Toumani Camara,camarto01,Toumani Camara,POR,POR,2023-24,1119563.0
+1629712,Didi Louzada,louzama01,Marcos Louzada Silva,POR,POR,2023-24,268032.0
+1630204,Ashton Hagans,haganas01,Ashton Hagans,POR,POR,2023-24,103550.0
+1631386,Tazé Moore,mooreta02,Taze Moore,POR,POR,2023-24,64343.0
+1631123,Jamaree Bouyea,bouyeja01,Jamaree Bouyea,SAS,POR,2023-24,
+1631219,John Butler Jr.,butlejo01,John Butler,POR,POR,2023-24,
+1630641,Ibou Badji,badjiib01,Ibou Badji,POR,POR,2023-24,
+1631303,Justin Minaya,minayju01,Justin Minaya,POR,POR,2023-24,
+1628368,De'Aaron Fox,foxde01,De'Aaron Fox,SAC,SAC,2023-24,32600060.0
+1627734,Domantas Sabonis,sabondo01,Domantas Sabonis,SAC,SAC,2023-24,30600000.0
+203084,Harrison Barnes,barneha02,Harrison Barnes,SAC,SAC,2023-24,17000000.0
+1628989,Kevin Huerter,huertke01,Kevin Huerter,SAC,SAC,2023-24,15669643.0
+1628370,Malik Monk,monkma01,Malik Monk,SAC,SAC,2023-24,9945830.0
+1631099,Keegan Murray,murrake02,Keegan Murray,SAC,SAC,2023-24,8409000.0
+1626168,Trey Lyles,lylestr01,Trey Lyles,SAC,SAC,2023-24,8000000.0
+1628426,Sasha Vezenkov,vezenal01,Aleksandar Vezenkov,SAC,SAC,2023-24,6341464.0
+1630558,Davion Mitchell,mitchda01,Davion Mitchell,SAC,SAC,2023-24,5063640.0
+1630537,Chris Duarte,duartch01,Chris Duarte,SAC,SAC,2023-24,4124400.0
+201577,Robin Lopez,lopezro01,Robin Lopez,MIL,SAC,2023-24,2019706.0
+201580,JaVale McGee,mcgeeja01,JaVale McGee,SAC,SAC,2023-24,2019706.0
+203458,Alex Len,lenal01,Alex Len,SAC,SAC,2023-24,2019706.0
+1641732,Colby Jones,jonesco02,Colby Jones,SAC,SAC,2023-24,2019706.0
+1630556,Kessler Edwards,edwarke02,Kessler Edwards,SAC,SAC,2023-24,1927896.0
+1631165,Keon Ellis,elliske01,Keon Ellis,SAC,SAC,2023-24,683430.0
+1630196,Filip Petrusev,petrufi01,Filip PetruÅ¡ev,SAC,SAC,2023-24,559782.0
+1629308,Juan Toscano-Anderson,toscaju01,Juan Toscano-Anderson,SAC,SAC,2023-24,323506.0
+203457,Nerlens Noel,noelne01,Nerlens Noel,SAC,SAC,2023-24,300000.0
+1629674,Neemias Queta,quetane01,Neemias Queta,BOS,SAC,2023-24,250000.0
+1641771,Jalen Slawson,slawsja01,Jalen Slawson,SAC,SAC,2023-24,
+1630259,Jordan Ford,fordjo01,Jordan Ford,SAC,SAC,2023-24,
+1630222,Mason Jones,jonesma05,Mason Jones,SAC,SAC,2023-24,
+1629640,Keldon Johnson,johnske04,Keldon Johnson,SAS,SAS,2023-24,20000000.0
+202694,Marcus Morris Sr.,morrima03,Marcus Morris,CLE,SAS,2023-24,17116279.0
+1641705,Victor Wembanyama,wembavi01,Victor Wembanyama,SAS,SAS,2023-24,12160680.0
+1628984,Devonte' Graham,grahade01,Devonte' Graham,SAS,SAS,2023-24,12100000.0
+203493,Reggie Bullock Jr.,bullore01,Reggie Bullock,HOU,SAS,2023-24,11014080.0
+1630200,Tre Jones,jonestr01,Tre Jones,SAS,SAS,2023-24,9895833.0
+1628380,Zach Collins,colliza01,Zach Collins,SAS,SAS,2023-24,7700000.0
+203920,Khem Birch,birchkh01,Khem Birch,SAS,SAS,2023-24,6985000.0
+1626224,Cedi Osman,osmande01,Cedi Osman,SAS,SAS,2023-24,6718842.0
+1626166,Cameron Payne,payneca01,Cameron Payne,PHI,SAS,2023-24,6500000.0
+1630170,Devin Vassell,vassede01,Devin Vassell,SAS,SAS,2023-24,5887899.0
+1631110,Jeremy Sochan,sochaje01,Jeremy Sochan,SAS,SAS,2023-24,5316960.0
+1630563,Joshua Primo,primojo01,Joshua Primo,LAC,SAS,2023-24,4341600.0
+1631103,Malaki Branham,branhma01,Malaki Branham,SAS,SAS,2023-24,3071880.0
+1630577,Julian Champagnie,champju02,Julian Champagnie,SAS,SAS,2023-24,3000000.0
+1629646,Charles Bassey,bassech01,Charles Bassey,SAS,SAS,2023-24,2600000.0
+1631104,Blake Wesley,weslebl01,Blake Wesley,SAS,SAS,2023-24,2504640.0
+1630572,Sandro Mamukelashvili,mamuksa01,Sandro Mamukelashvili,SAS,SAS,2023-24,2019706.0
+1631321,Sidy Cissoko,cissosi01,Sidy Cissoko,SAS,SAS,2023-24,1119563.0
+1631230,Dominick Barlow,barlodo01,Dominick Barlow,SAS,SAS,2023-24,455620.0
+1630205,Lamar Stevens,stevela01,Lamar Stevens,MEM,SAS,2023-24,400000.0
+,未知,ricesi01,Sir'Jabari Rice,SAS,SAS,2023-24,
+,未知,millnse01,Seth Millner,SAS,SAS,2023-24,
+,未知,bediach01,Charles Bediako,SAS,SAS,2023-24,
+1630561,David Duke Jr.,dukeda01,David Duke,SAS,SAS,2023-24,
+1629603,Mamadi Diakite,diakima01,Mamadi Diakite,NYK,SAS,2023-24,
+1631123,Jamaree Bouyea,bouyeja01,Jamaree Bouyea,SAS,SAS,2023-24,
+1630564,RaiQuan Gray,grayra01,RaiQuan Gray,SAS,SAS,2023-24,
+1629628,RJ Barrett,barrerj01,RJ Barrett,TOR,TOR,2023-24,23883929.0
+1628971,Bruce Brown,brownbr01,Bruce Brown,TOR,TOR,2023-24,22000000.0
+203915,Spencer Dinwiddie,dinwisp01,Spencer Dinwiddie,LAL,TOR,2023-24,20357143.0
+1627751,Jakob Poeltl,poeltja01,Jakob Poeltl,TOR,TOR,2023-24,19500000.0
+1629018,Gary Trent Jr.,trentga02,Gary Trent,TOR,TOR,2023-24,18560000.0
+203482,Kelly Olynyk,olynyke01,Kelly Olynyk,TOR,TOR,2023-24,12195122.0
+1628449,Chris Boucher,bouchch01,Chris Boucher,TOR,TOR,2023-24,11750000.0
+1630567,Scottie Barnes,barnesc01,Scottie Barnes,TOR,TOR,2023-24,8008680.0
+1641711,Gradey Dick,dickgr01,Gradey Dick,TOR,TOR,2023-24,4536720.0
+1629667,Jalen McDaniels,mcdanja01,Jalen McDaniels,TOR,TOR,2023-24,4516000.0
+1630193,Immanuel Quickley,quickim01,Immanuel Quickley,TOR,TOR,2023-24,4171548.0
+1630534,Ochai Agbaji,agbajoc01,Ochai Agbaji,TOR,TOR,2023-24,4114200.0
+1629670,Jordan Nwora,nworajo01,Jordan Nwora,TOR,TOR,2023-24,3000000.0
+202066,Garrett Temple,templga01,Garrett Temple,TOR,TOR,2023-24,2019706.0
+1631132,Christian Koloko,kolokch01,Christian Koloko,TOR,TOR,2023-24,1719864.0
+1631241,Javon Freeman-Liberty,freemja01,Javon Freeman-Liberty,TOR,TOR,2023-24,289542.0
+1628424,Kobi Simmons,simmoko01,Kobi Simmons,TOR,TOR,2023-24,116075.0
+1630186,Jahmi'us Ramsey,ramseja01,Jahmi'us Ramsey,TOR,TOR,2023-24,116075.0
+1626159,Justise Winslow,winslju01,Justise Winslow,TOR,TOR,2023-24,116075.0
+1642013,Malik Williams,willima11,Malik Williams,TOR,TOR,2023-24,64343.0
+1631338,Mouhamadou Gueye,gueyemo01,Mouhamadou Gueye,TOR,TOR,2023-24,64343.0
+1630618,D.J. Carton,cartodj01,D.J. Carton,TOR,TOR,2023-24,64343.0
+1629007,Jontay Porter,portejo01,Jontay Porter,TOR,TOR,2023-24,
+1631199,Ron Harper Jr.,harpero02,Ron Harper,TOR,TOR,2023-24,
+1641806,Markquis Nowell,nowelma01,Markquis Nowell,TOR,TOR,2023-24,
+1628381,John Collins,collijo01,John Collins,UTA,UTA,2023-24,25340000.0
+203903,Jordan Clarkson,clarkjo01,Jordan Clarkson,UTA,UTA,2023-24,23487629.0
+1629012,Collin Sexton,sextoco01,Collin Sexton,UTA,UTA,2023-24,17325000.0
+1628374,Lauri Markkanen,markkla01,Lauri Markkanen,UTA,UTA,2023-24,17259999.0
+1629659,Talen Horton-Tucker,hortota01,Talen Horton-Tucker,UTA,UTA,2023-24,11020000.0
+203490,Otto Porter Jr.,porteot01,Otto Porter,TOR,UTA,2023-24,6300000.0
+1630184,Kira Lewis Jr.,lewiski01,Kira Lewis,UTA,UTA,2023-24,5722116.0
+1641707,Taylor Hendricks,hendrta01,Taylor Hendricks,UTA,UTA,2023-24,5569920.0
+1641718,Keyonte George,georgke01,Keyonte George,UTA,UTA,2023-24,3889800.0
+1631117,Walker Kessler,kesslwa01,Walker Kessler,UTA,UTA,2023-24,2831160.0
+1630209,Omer Yurtseven,yurtsom01,Omer Yurtseven,UTA,UTA,2023-24,2800000.0
+1627739,Kris Dunn,dunnkr01,Kris Dunn,UTA,UTA,2023-24,2586665.0
+1641729,Brice Sensabaugh,sensabr01,Brice Sensabaugh,UTA,UTA,2023-24,2448600.0
+1629677,Luka Samanic,samanlu01,Luka Å amaniÄ,UTA,UTA,2023-24,2066585.0
+1628995,Kevin Knox II,knoxke01,Kevin Knox,DET,UTA,2023-24,1845593.0
+1631254,Kenneth Lofton Jr.,loftoke01,Kenneth Lofton,UTA,UTA,2023-24,500000.0
+1629647,Darius Bazley,bazleda01,Darius Bazley,UTA,UTA,2023-24,500000.0
+,未知,kinseta02,Taevion Kinsey,UTA,UTA,2023-24,64343.0
+,未知,hausejo01,Joey Hauser,UTA,UTA,2023-24,
+1630548,Johnny Juzang,juzanjo01,Johnny Juzang,UTA,UTA,2023-24,
+1630528,Josh Christopher,chrisjo01,Josh Christopher,UTA,UTA,2023-24,
+1630695,Micah Potter,pottemi01,Micah Potter,UTA,UTA,2023-24,
+1630554,Jason Preston,prestja01,Jason Preston,UTA,UTA,2023-24,
+1629673,Jordan Poole,poolejo01,Jordan Poole,WAS,WAS,2023-24,27455357.0
+1628398,Kyle Kuzma,kuzmaky01,Kyle Kuzma,WAS,WAS,2023-24,25568182.0
+1626145,Tyus Jones,jonesty01,Tyus Jones,WAS,WAS,2023-24,14000000.0
+1628963,Marvin Bagley III,baglema01,Marvin Bagley,WAS,WAS,2023-24,12500000.0
+1626158,Richaun Holmes,holmeri01,Richaun Holmes,WAS,WAS,2023-24,12046020.0
+1629013,Landry Shamet,shamela01,Landry Shamet,WAS,WAS,2023-24,10250000.0
+1626153,Delon Wright,wrighde01,Delon Wright,MIA,WAS,2023-24,8195122.0
+1641731,Bilal Coulibaly,coulibi01,Bilal Coulibaly,WAS,WAS,2023-24,6614280.0
+1630166,Deni Avdija,avdijde01,Deni Avdija,WAS,WAS,2023-24,6263188.0
+1631098,Johnny Davis,davisjo06,Johnny Davis,WAS,WAS,2023-24,5050800.0
+1630557,Corey Kispert,kispeco01,Corey Kispert,WAS,WAS,2023-24,3722040.0
+1641774,Tristan Vukcevic,vukcetr01,Tristan Vukcevic,WAS,WAS,2023-24,2424892.0
+1631116,Patrick Baldwin Jr.,baldwpa01,Patrick Baldwin,WAS,WAS,2023-24,2337720.0
+201959,Taj Gibson,gibsota01,Taj Gibson,DET,WAS,2023-24,2019706.0
+1630264,Anthony Gill,gillan01,Anthony Gill,WAS,WAS,2023-24,1997238.0
+1630587,Isaiah Livers,liveris01,Isaiah Livers,DET,WAS,2023-24,1836096.0
+1641645,Xavier Cooks,cooksxa01,Xavier Cooks,WAS,WAS,2023-24,1719864.0
+1631157,Ryan Rollins,rolliry01,Ryan Rollins,MIL,WAS,2023-24,1719864.0
+1630215,Jared Butler,butleja02,Jared Butler,WAS,WAS,2023-24,1250000.0
+1630647,Eugene Omoruyi,omorueu01,Eugene Omoruyi,WAS,WAS,2023-24,900000.0
+1628977,Hamidou Diallo,diallha01,Hamidou Diallo,WAS,WAS,2023-24,116075.0
+1630551,Justin Champagnie,champju01,Justin Champagnie,WAS,WAS,2023-24,116075.0
+1630181,R.J. Hampton,hamptrj01,R.J. Hampton,MIA,WAS,2023-24,116075.0
+1641998,Trey Jemison III,jemistr01,Trey Jemison,MEM,WAS,2023-24,64343.0
+1631219,John Butler Jr.,butlejo01,John Butler,WAS,WAS,2023-24,
+1631262,Jules Bernard,bernaju01,Jules Bernard,WAS,WAS,2023-24,
